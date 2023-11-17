@@ -10,9 +10,8 @@
 - ###  ${\color{#04d220}Iniciar\space el \space Proyecto}$<a href="#iniciar-el-proyecto"> 🖲</a>
 
   
-   -   ${\color{#04d220}Instalar\space  Angular\space Material}$<a href="#instalar-angular-material"> 🖲</a>
-
-
+   - ${\color{#04d220}Instalar\space  Angular\space Material}$<a href="#instalar-angular-material"> 🖲</a>
+   - ${\color{#04d220}Cambiar\space directorio\space del\space proyecto\space}$<a href="#instalar-angular-material"> 🖲</a>
 
 
 ### Iniciar el Proyecto 
@@ -33,10 +32,18 @@ ng new nombre-del-proyecto --prefix nombrePrefijo
  ```
 ng new AngularMaterial --routing --style=scss
 ```
-### Instalar Angular Material
+#### Instalar Angular Material
 
  - ${\color{blue}Dentro \space  del  \space proyecto}$
 
  ```
 ng add @angular/material
 ```
+ #### Cambiar directorio del proyecto
+
+ ```
+ ng new app-name --directory="FOLDER-NAME"
+
+# Ejemplo
+ng new myApp --directory="C:\New-Folder\"
+``` 
