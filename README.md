@@ -7,6 +7,10 @@
 
 ## ${\color{orange}📚Indice }$
 
+- ###  ${\color{#04d220}Iniciar\space el \space Proyecto}$<a href="#iniciar-el-proyecto"> 🖲</a>
+  
+   -   ${\color{#04d220}Instalar\space  Angular\space Material}$<a href="#instalar-angular-material"> 🖲</a><!-- [Cambiar directorio de un proyecto](#cambiar-directorio-de-un-proyecto) -->
+
 ### ${\color{#04d220}Iniciar\space el \space Proyecto}$<a href="#iniciar-el-proyecto"> 🖲</a>
 
  ### Iniciar el Proyecto 
@@ -22,4 +26,15 @@ ng new nombre-del-proyecto --minimal
  - ${\color{blue}Con \space prefijo \space para \space especificar \space todos \space los \space componentes: }$  
  ```
 ng new nombre-del-proyecto --prefix nombrePrefijo
+```
+ - ${\color{blue}Con \space  enrutamiento  \space y \space utilizando  \space SCSS \space en  \space su  \space totalidad  }$  
+ ```
+ng new AngularMaterial --routing --style=scss
+```
+### Instalar  Angular Material
+
+ - ${\color{blue}Dentro \space  del  \space proyecto}$
+
+ ```
+ng add @angular/material
 ```
