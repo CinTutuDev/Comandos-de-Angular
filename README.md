@@ -12,7 +12,7 @@
   
    -   ${\color{#04d220}Instalar\space  Angular\space Material}$<a href="#instalar-angular-material"> 🖲</a>
 
-### ${\color{#04d220}Iniciar\space el \space Proyecto}$<a href="#iniciar-el-proyecto"> 🖲</a>
+
 
 
 ### Iniciar el Proyecto 
@@ -33,7 +33,7 @@ ng new nombre-del-proyecto --prefix nombrePrefijo
  ```
 ng new AngularMaterial --routing --style=scss
 ```
-### Instalar  Angular Material
+### Instalar Angular Material
 
  - ${\color{blue}Dentro \space  del  \space proyecto}$
 
