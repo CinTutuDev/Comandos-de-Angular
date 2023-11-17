@@ -8,13 +8,12 @@
 ## ${\color{orange}📚Indice }$
 
 - ###  ${\color{#04d220}Iniciar\space el \space Proyecto}$<a href="#iniciar-el-proyecto"> 🖲</a>
-<<<<<<< HEAD
+
   
    -   ${\color{#04d220}Instalar\space  Angular\space Material}$<a href="#instalar-angular-material"> 🖲</a>
 
 ### ${\color{#04d220}Iniciar\space el \space Proyecto}$<a href="#iniciar-el-proyecto"> 🖲</a>
-=======
->>>>>>> 6a04fd575dbc347192a724a3bb935869492d0c43
+
 
 ### Iniciar el Proyecto 
 
