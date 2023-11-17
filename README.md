@@ -7,7 +7,7 @@
 
 ## ${\color{orange}📚Indice }$
 
-### ${\color{#04d220}Iniciar\space el \space Proyecto}$<a href="#iniciar-el-proyecto"> 🟢</a>
+### ${\color{#04d220}Iniciar\space el \space Proyecto}$<a href="#iniciar-el-proyecto"> 🖲</a>
 
  ### Iniciar el Proyecto 
 
