@@ -13,6 +13,8 @@
    - ${\color{#04d220}Instalar\space  Angular\space Material}$<a href="#instalar-angular-material"> 🖲</a>
    - ${\color{#04d220}Cambiar\space directorio\space del\space proyecto\space}$<a href="#instalar-angular-material"> 🖲</a>
 
+- ###  ${\color{#04d220}Iniciar\space en\space servidor}$<a href="#iniciar-en-servidor">🌐</a>
+
 
 ### Iniciar el Proyecto 
 
@@ -47,3 +49,20 @@ ng add @angular/material
 # Ejemplo
 ng new myApp --directory="C:\New-Folder\"
 ``` 
+### Iniciar en servidor
+
+```
+ng serve -o
+```
+o
+ ```
+ng s -o
+```
+  - ${\color{blue}Definir \space en  \space package.json\space }$
+```
+"scripts": {
+  "start": "ng serve"
+}
+# se inicia el servidor:
+npm start
+```
