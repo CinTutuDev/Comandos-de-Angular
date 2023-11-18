@@ -7,16 +7,17 @@
 
 ## ${\color{orange}📚Indice }$
 
-- ###  ${\color{#04d220}Iniciar\space el \space Proyecto}$<a href="#iniciar-el-proyecto"> 🖲</a>
+ 1. ###  ${\color{#04d220}Iniciar\space el \space Proyecto}$<a href="#iniciar-el-proyecto"> 🖲</a>
+      1.1  ${\color{#04d220}Instalar\space  Angular\space Material}$<a href="#instalar-angular-material"> 🖲</a>
 
-  
-   - ${\color{#04d220}Instalar\space  Angular\space Material}$<a href="#instalar-angular-material"> 🖲</a>
-   - ${\color{#04d220}Cambiar\space directorio\space del\space proyecto\space}$<a href="#instalar-angular-material"> 🖲</a>
+      1.2 ${\color{#04d220}Cambiar\space directorio\space del\space proyecto\space}$<a href="#instalar-angular-material"> 🖲</a>
 
-- ###  ${\color{#04d220}Iniciar\space en\space servidor}$<a href="#iniciar-en-servidor">🌐</a>
+2. ###  ${\color{#04d220}Iniciar\space en\space servidor}$<a href="#iniciar-en-servidor">🌐</a>
 
+3. ###  ${\color{#04d220}Cambiar\space puertos}$<a href="#Cambiar-puertos">⚙️</a>
 
-### Iniciar el Proyecto 
+<!-- ---------------1------------------------------------------------>
+1. ### Iniciar el Proyecto 
 
   - ${\color{blue}Modo \space basico  }$
 ```
@@ -34,14 +35,15 @@ ng new nombre-del-proyecto --prefix nombrePrefijo
  ```
 ng new AngularMaterial --routing --style=scss
 ```
-#### Instalar Angular Material
+#### 1.1 Instalar Angular Material
 
  - ${\color{blue}Dentro \space  del  \space proyecto}$
 
  ```
 ng add @angular/material
 ```
- #### Cambiar directorio del proyecto
+
+ #### 1.2 Cambiar directorio del proyecto
 
  ```
  ng new app-name --directory="FOLDER-NAME"
@@ -49,7 +51,8 @@ ng add @angular/material
 # Ejemplo
 ng new myApp --directory="C:\New-Folder\"
 ``` 
-### Iniciar en servidor
+<!-- ---------------------------------------------2-------------------- ----------------------------------------->
+2. ### Iniciar en servidor
 
 ```
 ng serve -o
@@ -66,3 +69,6 @@ ng s -o
 # se inicia el servidor:
 npm start
 ```
+
+<!-- -------------------------------------------------------------3-------------------- -->
+3. ### Cambiar puertos
