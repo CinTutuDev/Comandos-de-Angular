@@ -30,6 +30,8 @@
 
    5.2  ${\color{#04d220}Especificar\space carpeta\space de\space destino}$<a href="#especificar-carpeta-de-destino">🧩</a>
 
+   5.3  ${\color{#04d220}Crear\space modulo\space con\space enrutamiento}$<a href="#crear-modulo-con-enrutamiento">🧩</a>
+
 6. ###  ${\color{#04d220}Con\space --flat\space}$<a href="#--flat">📁</a>
 
 <!-- ---------------1------------------------------------------------>
@@ -124,16 +126,20 @@ ng g c mi-carpeta/componente-nombre
 ```
 <!-- -----------------------------------------------------------5-------------------- -->
 5. ### Modulos
-   ####  5.1 Crear nuevo modulo
+   ####  5.1 Crear nuevo módulo
+    ```
+     ng g m modulo-nombre
+    ```
 
-```
- ng g m modulo-nombre
-```
    #### 5.2 Especificar carpeta de destino
-```
-ng g m mi-carpeta/modulo-nombre
-```
+    ```
+    ng g m mi-carpeta/modulo-nombre
+    ```
 
+   #### 5.3 Crear módulo con enrutamiento
+    ```
+    ng g m modulo-nombre --routing
+    ```
 
 <!-- ------------------------------------------------------------6-------------------- -->
 6. ### --flat
