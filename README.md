@@ -14,7 +14,7 @@
 
 2. ##  ${\color{#04d220}Iniciar\space en\space servidor}$<a href="#iniciar-en-servidor">🌐</a>
 
-3. ##  ${\color{#04d220}Cambiar\space puertos}$<a href="#Cambiar-puertos">⚙️</a>
+3. ##  ${\color{#04d220}Cambiar\space puertos}$<a href="#cambiar-puertos">⚙️</a>
 4. ##  ${\color{#04d220}Componentes}$<a href="#componentes">🔧</a>
   -  ${\color{#04d220}Crear\space  nuevo\space componente}$<a href="#crear-nuevo-componente">🔧</a>
       * ${\color{#04d220}Sin\space tests}$<a href="#sin-tests">🔧</a>
@@ -44,10 +44,14 @@
  - ${\color{#04d220}Crear\space guard\space}$<a href="#crear-guard">🛡️</a>
    - ${\color{#04d220}Crear\space guard\space con\space CanActivate}$<a href="#crear-guard-con-canactivate">🛡️</a>
 
+9.  ##  ${\color{#04d220}Flat\space}$<a href="#flat">📁</a>
 
-1.  ##  ${\color{#04d220}Guard}$<a href="#guard">🛡️</a>
+10.  ##  ${\color{#04d220}Pipes\space}$<a href="#pipes">🌀</a>
+   -  ${\color{#04d220}Crear\space pipes\space pipes}$<a href="#crear-pipes">🌀</a>
 
-9.  ##  ${\color{#04d220}flat\space}$<a href="#flat">📁</a>
+11. ##  ${\color{#04d220}Directivas\space}$<a href="#pipes">📐</a>
+   -  ${\color{#04d220}Directivas\space estrcuturales\space}$<a href="#directivas-estrcuturales">📐</a>
+         -  ${\color{#04d220}Ejemplos}$<a href="#ejemplos">📐</a>
 
 <!-- ---------------1------------------------------------------------>
 1. ## Iniciar el Proyecto
@@ -84,7 +88,7 @@ ng add @angular/material
 # Ejemplo
 ng new myApp --directory="C:\New-Folder\"
 ``` 
-<!-- ---------------------------------------------2-------------------- ----------------------------------------->
+
 2. ## Iniciar en servidor
 
 ```
@@ -103,12 +107,11 @@ ng s -o
 npm start
 ```
 
-<!-- -------------------------------------------------------------3-------------------- -->
 3. ## Cambiar puertos
 ```
 ng serve --port 4200
 ``` 
-<!-- ------------------------------------------------------------4-------------------- -->
+
 4. ## Componentes
    ### Crear nuevo componente
 ```
@@ -143,8 +146,6 @@ ng g c mi-carpeta/componente-nombre
 ```
  ng g c mi-carpeta/componente-nombre --skip-import
 ```
-<!-- -----------------------------------------------------------5-------------------- -->
-
 5. ## Modulos 
    ###  Crear nuevo modulo 
     ```
@@ -195,3 +196,39 @@ ng g c mi-carpeta/componente-nombre
 ```
 ng g c mi-carpeta/componente-nombre --flat
 ```    
+10. ## Pipes
+    ### Crear pipes
+    ```
+    ng generate pipe nombre-pipe --skip-import
+    ```
+11. ## Directivas
+    ### Directivas estrcuturales
+   - \*ngIf
+   - \*ngFor
+   - \*ngSwitch
+  
+   #### Ejemplos
+   - \*ngIf (Condicional)
+```html
+<div *ngIf="mostrarElemento">
+  Este elemento se mostrará si la variable mostrarElemento es verdadera.
+</div>
+```
+  - \*ngFor (Repetición)
+```html
+<ul>
+  <li *ngFor="let item of listaDeItems">
+    {{ item }}
+  </li>
+</ul>
+```
+ - \*ngSwitch (Conmutación)
+```html
+<div [ngSwitch]="tipoDeContenido">
+  <p *ngSwitchCase="'texto'">Este es un contenido de texto.</p>
+  <div *ngSwitchCase="'imagen'">
+    <img src="imagen.png" alt="Imagen">
+  </div>
+  <p *ngSwitchDefault>Contenido por defecto cuando no coincide ningún caso.</p>
+</div>
+```
