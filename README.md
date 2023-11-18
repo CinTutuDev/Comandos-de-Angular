@@ -22,6 +22,7 @@
      - ${\color{#04d220}Sin\space template}$<a href="#sin-template">🔧</a>
      - ${\color{#04d220}En\space otro \space directorio}$<a href="#en-otro-directorio">🔧</a>
      - ${\color{#04d220}Generar\space componente \space dentro\space del\space app-module}$<a href="#generar-componente-dentro-del-app-module">🔧</a>
+     - ${\color{#04d220}Generar\space componente \space dentro\space de\space otro\space componente}$<a href="#generar-componente-dentro-de-otro-componente">🔧</a>
      -  ${\color{#04d220}Sin\space importar \space en\space app-module}$<a href="#sin-importar-en-app-module">🔧</a>
       
 5. ###  ${\color{#04d220}Modulos}$<a href="#modulos">🧩</a>
@@ -30,6 +31,9 @@
    5.2  ${\color{#04d220}Especificar\space carpeta\space de\space destino}$<a href="#especificar-carpeta-de-destino">🧩</a>
 
    5.3  ${\color{#04d220}Crear\space modulo\space con\space enrutamiento}$<a href="#crear-modulo-con-enrutamiento">🧩</a>
+
+   5.4  ${\color{#04d220}Crear\space componente\space en\space el\space modulo}$<a href="#crear-componente-en-el-modulo">🧩</a>
+
 
 6. ###  ${\color{#04d220}Con\space --flat\space}$<a href="#--flat">📁</a>
 
@@ -94,7 +98,7 @@ ng serve --port 4200
 ``` 
 <!-- ------------------------------------------------------------4-------------------- -->
 4. ### Componentes
-   ####  4.1 Crear nuevo componente
+   #### Crear nuevo componente
 ```
 ng g c componente-nombre
 ```
@@ -119,29 +123,43 @@ ng g c mi-carpeta/componente-nombre
 ```
  ng g c components/componente-nombre --module=app.module
 ```
+   #### Generar componente dentro de otro componente
+```
+ ng g c nombre-carpeta(componente)/nuevo-componente
+```
    #### Sin importar en app-module 
 ```
  ng g c mi-carpeta/componente-nombre --skip-import
 ```
 <!-- -----------------------------------------------------------5-------------------- -->
-5. ### Modulos
-   ####  5.1 Crear nuevo módulo
+
+5. ### Modulos 
+   ####  Crear nuevo modulo 
     ```
      ng g m modulo-nombre
     ```
 
-   #### 5.2 Especificar carpeta de destino
+   #### Especificar carpeta de destino
     ```
     ng g m mi-carpeta/modulo-nombre
     ```
 
-   #### 5.3 Crear módulo con enrutamiento
+   ####  Crear módulo con enrutamiento
     ```
      ng g m modulo-nombre --routing
     ```
+   #### Crear componente en el modulo
+    ```
+    # 1º se debe crear el modulo
+    ng g m Nombremodulo --routing
+
+    # 2º se crear el componenete con el nombre modulo
+    ng g c Nombremodulo/nombre-Componente --flat --skip-tests
+    ```
+    
 
 <!-- ------------------------------------------------------------6-------------------- -->
-6. ### --flat
+1. ### --flat
   - ${\color{blue}Crear \space dentro\space del\space directorio\space sin\space carpeta}$
 ```
 ng g c mi-carpeta/componente-nombre --flat
