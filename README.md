@@ -17,8 +17,12 @@
 3. ###  ${\color{#04d220}Cambiar\space puertos}$<a href="#Cambiar-puertos">⚙️</a>
 4. ###  ${\color{#04d220}Componentes}$<a href="#componentes">🔧</a>
    4.1  ${\color{#04d220}Crear\space  nuevo\space componente}$<a href="#crear-nuevo-componente">🔧</a>
-     - ${\color{#04d220}Sin\space archivo\space de\space prueba}$<a href="#sin-archivo-de-prueba">🔧</a>
-     -  ${\color{#04d220}Sin\space archivo\space de\space prueba\space y \space hoja\space de\space estilos}$<a href="#sin-archivo-de-prueba-y-estilos">🔧</a>
+     - ${\color{#04d220}Sin\space tests}$<a href="#sin-tests">🔧</a>
+     -  ${\color{#04d220}Sin\space tests\space y \space hoja\space de\space estilos}$<a href="#sin-tests-y-estilos">🔧</a>
+     - ${\color{#04d220}Sin\space template}$<a href="#sin-template">🔧</a>
+     - ${\color{#04d220}En\space otro \space directorio}$<a href="#en-otro-directorio">🔧</a>
+     - ${\color{#04d220}Generar\space componente \space dentro\space del\space app-module}$<a href="#generar-componente-dentro-del-app-module">🔧</a>
+     -  ${\color{#04d220}Sin\space importar \space en\space app-module}$<a href="#sin-importar-en-app-module">🔧</a>
 
 <!-- ---------------1------------------------------------------------>
 1. ### Iniciar el Proyecto
@@ -85,11 +89,28 @@ ng serve --port 4200
 ```
 ng g c componente-nombre
 ```
-   ##### Sin archivo de prueba
+   ##### Sin tests
 ```
 ng g c componente-nombre --skip-tests
 ```
-   #### Sin archivo de prueba y estilos
+   #### Sin tests y estilos
+
 ```
 ng g c nombre-componente --inline-style --skip-tests
+```
+   #### Sin template
+```
+ng g c mi-carpeta/componente-nombre --inline-template
+```
+  #### En otro directorio
+```
+ng g c mi-carpeta/componente-nombre
+```
+   #### Generar componente dentro del app-module
+```
+ ng g c components/componente-nombre --module=app.module
+```
+   #### Sin importar en app-module 
+```
+ ng g c mi-carpeta/componente-nombre --skip-import
 ```
