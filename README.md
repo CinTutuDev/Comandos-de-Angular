@@ -123,8 +123,7 @@ ng g c mi-carpeta/componente-nombre
 ```
 <!-- -----------------------------------------------------------5-------------------- -->
 5. ### Modulos
-  #crear-nuevo-modulo
-
+   ####  5.1 Crear nuevo modulo
 ```
  ng g m modulo-nombre
 ```
