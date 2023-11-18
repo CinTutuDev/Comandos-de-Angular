@@ -23,6 +23,12 @@
      - ${\color{#04d220}En\space otro \space directorio}$<a href="#en-otro-directorio">🔧</a>
      - ${\color{#04d220}Generar\space componente \space dentro\space del\space app-module}$<a href="#generar-componente-dentro-del-app-module">🔧</a>
      -  ${\color{#04d220}Sin\space importar \space en\space app-module}$<a href="#sin-importar-en-app-module">🔧</a>
+      
+5. ###  ${\color{#04d220}Modulos}$<a href="#modulos">🧩</a>  
+   5.1  ${\color{#04d220}Crear\space  nuevo\space modulo}$<a href="#crear-nuevo-modulo">🧩</a>
+
+   5.2  ${\color{#04d220}Especificar\space carpeta\space de\space destino}$<a href="#especificar-carpeta-de-destino">🧩</a>
+6. ###  ${\color{#04d220}Con\space --flat\space}$<a href="#--flat">📁</a>
 
 <!-- ---------------1------------------------------------------------>
 1. ### Iniciar el Proyecto
@@ -114,3 +120,22 @@ ng g c mi-carpeta/componente-nombre
 ```
  ng g c mi-carpeta/componente-nombre --skip-import
 ```
+<!-- -----------------------------------------------------------5-------------------- -->
+5. ### Modulos
+   ####  5.1 Crear nuevo modulo
+```
+ ng g m modulo-nombre
+```
+   #### 5.2 Cambiar directorio del proyecto
+```
+ng g m mi-carpeta/modulo-nombre
+```
+
+
+<!-- ------------------------------------------------------------6-------------------- -->
+1. ### --flat
+  - ${\color{blue}Crear \space dentro\space del\space directorio\space sin\space carpeta}$
+```
+ng g c mi-carpeta/componente-nombre --flat
+```
+   
