@@ -17,8 +17,8 @@
 3. ###  ${\color{#04d220}Cambiar\space puertos}$<a href="#Cambiar-puertos">⚙️</a>
 4. ###  ${\color{#04d220}Componentes}$<a href="#componentes">🔧</a>
    4.1  ${\color{#04d220}Crear\space  nuevo\space componente}$<a href="#crear-nuevo-componente">🔧</a>
-     - ${\color{#04d220}Sin\space archivo\space de\space prueba `spec`}$<a href="#sin-archivo-de-prueba">🔧</a>
-     -  ${\color{#04d220}Sin\space archivo\space de\space prueba `spec`\space y \space hoja\space de\space estilos}$<a href="#sin-archivo-de-prueba-y-estilos">🔧</a>
+     - ${\color{#04d220}Sin\space archivo\space de\space prueba}$<a href="#sin-archivo-de-prueba">🔧</a>
+     -  ${\color{#04d220}Sin\space archivo\space de\space prueba\space y \space hoja\space de\space estilos}$<a href="#sin-archivo-de-prueba-y-estilos">🔧</a>
 
 <!-- ---------------1------------------------------------------------>
 1. ### Iniciar el Proyecto
