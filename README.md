@@ -2,21 +2,21 @@
  <img src="assets/angular.png" width="6%">
 </p>
 <p align="center"> 
-<img src="https://readme-typing-svg.demolab.com?font=Pixel Emulator&size=40&color=DD0031&center=true&vCenter=true&width=940&lines=Comandos+De+Angular🖥️" align="middle" alt=""  width="80%"/>
+<img src="https://readme-typing-svg.demolab.com?font=Pixel Emulator&size=40&color=DD0031&center=true&vCenter=true&width=940&lines=Comandos+De+Angular" align="middle" alt=""  width="80%"/>
 </p>
 
 # ${\color{orange}📚Indice }$
 
  1. ##  ${\color{#04d220}Iniciar\space el \space Proyecto}$<a href="#iniciar-el-proyecto"> 🖲</a>
-      - ${\color{#04d220}Instalar\space  Angular\space Material}$<a href="#instalar-angular-material"> 🖲</a>
+   - ${\color{#04d220}Instalar\space  Angular\space Material}$<a href="#instalar-angular-material"> 🖲</a>
 
-      - ${\color{#04d220}Cambiar\space directorio\space del\space proyecto\space}$<a href="#instalar-angular-material"> 🖲</a>
+   - ${\color{#04d220}Cambiar\space directorio\space del\space proyecto\space}$<a href="#instalar-angular-material"> 🖲</a>
 
 2. ##  ${\color{#04d220}Iniciar\space en\space servidor}$<a href="#iniciar-en-servidor">🌐</a>
 
 3. ##  ${\color{#04d220}Cambiar\space puertos}$<a href="#Cambiar-puertos">⚙️</a>
 4. ##  ${\color{#04d220}Componentes}$<a href="#componentes">🔧</a>
-   -  ${\color{#04d220}Crear\space  nuevo\space componente}$<a href="#crear-nuevo-componente">🔧</a>
+  -  ${\color{#04d220}Crear\space  nuevo\space componente}$<a href="#crear-nuevo-componente">🔧</a>
       * ${\color{#04d220}Sin\space tests}$<a href="#sin-tests">🔧</a>
       *  ${\color{#04d220}Sin\space tests\space y \space hoja\space de\space estilos}$<a href="#sin-tests-y-estilos">🔧</a>
       * ${\color{#04d220}Sin\space template}$<a  href="#sin-template">🔧</a>
@@ -26,7 +26,7 @@
       *  ${\color{#04d220}Sin\space importar \space en\space app-module}$<a href="#sin-importar-en-app-module">🔧</a>
       
 5. ##  ${\color{#04d220}Modulos}$<a href="#modulos">🧩</a>
-   -  ${\color{#04d220}Crear\space nuevo\space modulo}$<a href="#crear-nuevo-modulo">🧩</a>
+  -  ${\color{#04d220}Crear\space nuevo\space modulo}$<a href="#crear-nuevo-modulo">🧩</a>
    
    -  ${\color{#04d220}Especificar\space carpeta\space de\space destino}$<a href="#especificar-carpeta-de-destino">🧩</a>
 
@@ -34,8 +34,20 @@
 
    -  ${\color{#04d220}Crear\space componente\space en\space el\space modulo}$<a href="#crear-componente-en-el-modulo">🧩</a>
 
+6.  ##  ${\color{#04d220}Servicios}$<a href="#servicios">📡</a>
+ - ${\color{#04d220}Crear\space nuevo\space servicio}$<a href="#crear-nuevo-servicio">📡</a>
 
-6. ##  ${\color{#04d220}Con\space --flat\space}$<a href="#--flat">📁</a>
+7.  ##  ${\color{#04d220}Routing}$<a href="#routing">📡</a>
+ - ${\color{#04d220}Configurar\space Enrutamiento\space}$<a href="#configurar-enrutamiento">🔗</a>   
+
+8.  ##  ${\color{#04d220}Guard}$<a href="#guard">🛡️</a>
+ - ${\color{#04d220}Crear\space guard\space}$<a href="#crear-guard">🛡️</a>
+   - ${\color{#04d220}Crear\space guard\space con\space CanActivate}$<a href="#crear-guard-con-canactivate">🛡️</a>
+
+
+1.  ##  ${\color{#04d220}Guard}$<a href="#guard">🛡️</a>
+
+9.  ##  ${\color{#04d220}flat\space}$<a href="#flat">📁</a>
 
 <!-- ---------------1------------------------------------------------>
 1. ## Iniciar el Proyecto
@@ -156,12 +168,30 @@ ng g c mi-carpeta/componente-nombre
     # 2º se crear el componenete con el nombre modulo
     ng g c Nombremodulo/nombre-Componente --flat --skip-tests
     ```
+   
+6. ## Servicios
+   ### Crear nuevo servicio
+   ```
+    ng g s nuevo-servicio --skip-tests
+   ```
+7. ## Routing
+   ### Configurar enrutamiento
+   ```
+   # para crear routing dentro de un modulo
+    ng g m nombreModuloRouting --flat
+   ```
+8. ## Guard
+   ### Crear guard
+   ```
+   ng g guard nombreGuard2 --skip-tests
+   ```
+   #### Crear guard con CanActivate
+   ```
+    ng g guard nombreGuard --implements=CanActivate --skip-tests
+   ```
+9. ## flat
     
-
-<!-- ------------------------------------------------------------6-------------------- -->
-6. ## --flat
   - ${\color{blue}Crear \space dentro\space del\space directorio\space sin\space carpeta}$
 ```
 ng g c mi-carpeta/componente-nombre --flat
-```
-   
+```    
