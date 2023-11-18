@@ -125,11 +125,11 @@ ng g c mi-carpeta/componente-nombre
 ```
 <!-- -----------------------------------------------------------5-------------------- -->
 5. ### Modulos
-   ####  5.1 Crear nuevo modulo
+   ####  5.1 Crear nuevo módulo
+    ```
+     ng g m modulo-nombre
+    ```
 
-```
- ng g m modulo-nombre
-```
    #### 5.2 Especificar carpeta de destino
     ```
     ng g m mi-carpeta/modulo-nombre
@@ -137,7 +137,7 @@ ng g c mi-carpeta/componente-nombre
 
    #### 5.3 Crear módulo con enrutamiento
     ```
-    ng g m modulo-nombre --routing
+     ng g m modulo-nombre --routing
     ```
 
 <!-- ------------------------------------------------------------6-------------------- -->
