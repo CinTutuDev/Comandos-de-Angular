@@ -16,8 +16,8 @@
 
 3. ###  ${\color{#04d220}Cambiar\space puertos}$<a href="#Cambiar-puertos">⚙️</a>
 4. ###  ${\color{#04d220}Componentes}$<a href="#componentes">🔧</a>
-   4.1  ${\color{#04d220}Crear\space  nuevo\space componente}$<a href="#crear-nuevo-componente">🔧</a>
-     - ${\color{#04d220}Sin\space tests}$<a href="#sin-tests">🔧</a>
+   -  ${\color{#04d220}Crear\space  nuevo\space componente}$<a href="#crear-nuevo-componente">🔧</a>
+      - ${\color{#04d220}Sin\space tests}$<a href="#sin-tests">🔧</a>
      -  ${\color{#04d220}Sin\space tests\space y \space hoja\space de\space estilos}$<a href="#sin-tests-y-estilos">🔧</a>
      - ${\color{#04d220}Sin\space template}$<a href="#sin-template">🔧</a>
      - ${\color{#04d220}En\space otro \space directorio}$<a href="#en-otro-directorio">🔧</a>
