@@ -15,9 +15,13 @@
 2. ###  ${\color{#04d220}Iniciar\space en\space servidor}$<a href="#iniciar-en-servidor">🌐</a>
 
 3. ###  ${\color{#04d220}Cambiar\space puertos}$<a href="#Cambiar-puertos">⚙️</a>
+4. ###  ${\color{#04d220}Componentes}$<a href="#componentes">🔧</a>
+   4.1  ${\color{#04d220}Crear\space  nuevo\space componente}$<a href="#crear-nuevo-componente">🔧</a>
+     - ${\color{#04d220}Sin\space archivo\space de\space prueba `spec`}$<a href="#sin-archivo-de-prueba">🔧</a>
+     -  ${\color{#04d220}Sin\space archivo\space de\space prueba `spec`\space y \space hoja\space de\space estilos}$<a href="#sin-archivo-de-prueba-y-estilos">🔧</a>
 
 <!-- ---------------1------------------------------------------------>
-1. ### Iniciar el Proyecto 
+1. ### Iniciar el Proyecto
 
   - ${\color{blue}Modo \space basico  }$
 ```
@@ -35,7 +39,7 @@ ng new nombre-del-proyecto --prefix nombrePrefijo
  ```
 ng new AngularMaterial --routing --style=scss
 ```
-#### 1.1 Instalar Angular Material
+ #### 1.1 Instalar Angular Material
 
  - ${\color{blue}Dentro \space  del  \space proyecto}$
 
@@ -72,3 +76,20 @@ npm start
 
 <!-- -------------------------------------------------------------3-------------------- -->
 3. ### Cambiar puertos
+```
+ng serve --port 4200
+``` 
+<!-- ------------------------------------------------------------4-------------------- -->
+4. ### Componentes
+   ####  4.1 Crear nuevo componente
+```
+ng g c componente-nombre
+```
+   ##### Sin archivo de prueba
+```
+ng g c componente-nombre --skip-tests
+```
+   #### Sin archivo de prueba y estilos
+```
+ng g c nombre-componente --inline-style --skip-tests
+```
