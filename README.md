@@ -6,7 +6,7 @@
 </p>
 
 # ${\color{orange}📚Indice }$
-
+Explicaciòn[^1].
  1. ##  ${\color{#04d220}Iniciar\space el \space Proyecto}$<a href="#iniciar-el-proyecto"> 🖲</a>
    - ${\color{#04d220}Instalar\space  Angular\space Material}$<a href="#instalar-angular-material"> 🖲</a>
 
@@ -37,7 +37,7 @@
 6.  ##  ${\color{#04d220}Servicios}$<a href="#servicios">📡</a>
  - ${\color{#04d220}Crear\space nuevo\space servicio}$<a href="#crear-nuevo-servicio">📡</a>
 
-7.  ##  ${\color{#04d220}Routing}$<a href="#routing">📡</a>
+7.  ##  ${\color{#04d220}Routing}$<a href="#routing">🔗</a>
  - ${\color{#04d220}Configurar\space Enrutamiento\space}$<a href="#configurar-enrutamiento">🔗</a>   
 
 8.  ##  ${\color{#04d220}Guard}$<a href="#guard">🛡️</a>
@@ -70,7 +70,7 @@
   -  ${\color{#04d220}URL\space Event\space Binding }$<a href="#event-binding">📐</a>
 
 12. ##  ${\color{#04d220}Compilar\space}$<a href="#compilar">🔄</a>
-   - ${\color{#04d220}Modo\space desarrollo\space y\space generar\space dist/ }$<a href="#dist/">🔄</a>
+   - ${\color{#04d220}Modo\space desarrollo\space y\space generar\space dist/ }$<a href="#dist">🔄</a>
    -  ${\color{#04d220}Modo\space producción}$<a href="#producción">🔄</a>
     
 13. ##  ${\color{#04d220}Interceptor}$<a href="#interceptor">🚥</a>
@@ -79,7 +79,7 @@
 
 <!-- ---------------1------------------------------------------------>
 1. ## Iniciar el Proyecto
-
+[^1]: Explicaciòn
   - ${\color{blue}Modo \space basico  }$
 ```
 ng new nombre-del-proyecto
