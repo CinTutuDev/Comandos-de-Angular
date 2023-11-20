@@ -283,6 +283,7 @@ ng g c mi-carpeta/componente-nombre --flat
   <p *ngSwitchDefault>Contenido por defecto cuando no coincide ningún caso.</p>
 </div>
 ``` 
+ ###   ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
    ### Directivas de atributo
    - [ngStyle] :Permite aplicar clases de manera condicional.
    - [ngClass] :Permite aplicar estilos de manera condicional.
@@ -311,6 +312,7 @@ ng g c mi-carpeta/componente-nombre --flat
 <!-- Muestra el valor vinculado -->
 <p>Tu nombre es: {{ nombre }}</p>
  ```
+  ###   ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
    ### Directivas de eventos
   - (click): Captura eventos de clic.
   - (input): Captura eventos de entrada en elementos de formulario.
@@ -383,6 +385,7 @@ handleSubmit() {
 <input (blur)="handleBlur()" placeholder="Pierdo el foco">
 
 ``` 
+ ###   ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
 
   ### Directivas personalizadas
   ```
@@ -418,9 +421,9 @@ export class NombreDirectivaDirective {
   Pasa el ratón sobre mí
 </div>
   ```
-  
+ Explicaciòn[^2].
  ###   ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
-Explicaciòn[^2].
+
 
 [^2]: @Directive({ selector: '[appHighlight]' }) define la directiva appHighlight y especifica que se puede aplicar a elementos con el atributo appHighlight.
 @Input() highlightColor: string = ''; define una propiedad de entrada (highlightColor) que permite al usuario especificar un color de resaltado cuando utiliza la directiva.
@@ -438,6 +441,7 @@ private highlight(color: string) es una función privada que cambia el color de 
      ```
      ng build --configuration=production
      ```
+###   ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
 13. ## Interceptor
    > Manejan y modifican solicitudes HTTP antes de que se envíen al servidor y las respuestas antes de que lleguen a la aplicación. Aquí hay un ejemplo sencillo de cómo podrías usar un interceptor.
 
