@@ -400,7 +400,8 @@ export class NombreDirectivaDirective {
   ```
 Explicaciòn[^2].
 
-[^2]: @Directive({ selector: '[appHighlight]' }) define la directiva appHighlight y especifica que se puede aplicar a elementos con el atributo appHighlight.
+[^2]:
+@Directive({ selector: '[appHighlight]' }) define la directiva appHighlight y especifica que se puede aplicar a elementos con el atributo appHighlight.
 @Input() highlightColor: string = ''; define una propiedad de entrada (highlightColor) que permite al usuario especificar un color de resaltado cuando utiliza la directiva.
 @HostListener escucha eventos en el elemento que tiene la directiva. En este caso, escuchamos los eventos mouseenter y mouseleave y llamamos a las funciones correspondientes.
 private highlight(color: string) es una función privada que cambia el color de fondo del elemento en función del color proporcionado.
