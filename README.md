@@ -74,8 +74,7 @@
    -  ${\color{#04d220}Modo\space producción}$<a href="#producción">🔄</a>
     
 13. ##  ${\color{#04d220}Interceptor}$<a href="#interceptor">🚥</a>
-   - ${\color{#04d220}Modo\space desarrollo\space y\space generar\space dist/ }$<a href="#dist/">🔄</a>
-   -  ${\color{#04d220}Modo\space producción}$<a href="#producción">🔄</a>
+  
        
 
 <!-- ---------------1------------------------------------------------>
