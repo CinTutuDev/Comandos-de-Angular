@@ -65,7 +65,10 @@
          -  ${\color{#04d220}(keydown)}$<a href="#keydown">📐</a> 
          -  ${\color{#04d220}(focus)}$<a href="#focus">📐</a>
          -  ${\color{#04d220}(blur)}$<a href="#blur">📐</a>    
-       -  ${\color{#04d220}URL\space Event\space Binding }$<a href="#event-binding">📐</a>  
+  
+  - ${\color{#04d220}Directivas\space personalizadas}$<a href="#directivas-personalizadas">📐</a>
+  -  ${\color{#04d220}URL\space Event\space Binding }$<a href="#event-binding">📐</a>
+    
      
 
 <!-- ---------------1------------------------------------------------>
@@ -219,6 +222,7 @@ ng g c mi-carpeta/componente-nombre --flat
 11. ## Directivas
     ### Directivas estructurales
    - \*ngIf
+     - \ngIfElse 
    - \*ngFor
    - \*ngSwitch
   
@@ -229,6 +233,19 @@ ng g c mi-carpeta/componente-nombre --flat
   Este elemento se mostrará si la variable mostrarElemento es verdadera.
 </div>
 ```
+   - \ngIfElse 
+```html
+<div *ngIf="isUserLoggedIn; else elseBlock">
+      <h2>Bienvenido, Usuario</h2>
+    </div>
+
+    <ng-template #elseBlock>
+      <h2>Por favor, inicia sesión</h2>
+    </ng-template>
+```
+```TypeScript
+ isUserLoggedIn = false;
+ ```
   - \*ngFor (Repetición)
 ```html
 <ul>
@@ -347,8 +364,46 @@ handleSubmit() {
 <input (blur)="handleBlur()" placeholder="Pierdo el foco">
 
 ``` 
+  ### Directivas personalizadas
+  ```
+  ng g d nombre-directiva --skip-import
+  ```
+  ```TypeScript
+  import { Directive, ElementRef, HostListener, Input } from '@angular/core';
 
+@Directive({
+  selector: '[appNombreDirectiva]'
+})
+export class NombreDirectivaDirective {
 
+  @Input() highlightColor: string = ''; // Color de resaltado por defecto
 
+  constructor(private el: ElementRef) {}
+
+  @HostListener('mouseenter') onMouseEnter() {
+    this.highlight(this.highlightColor || 'yellow');
+  }
+
+  @HostListener('mouseleave') onMouseLeave() {
+    this.highlight('');
+  }
+
+  private highlight(color: string) {
+    this.el.nativeElement.style.backgroundColor = color;
+  }
+}
+  ```
+  ``` html
+  <div appHighlight [highlightColor]="'cyan'">
+  Pasa el ratón sobre mí
+</div>
+  ```
+Explicaciòn[^2].
+
+[^2]: @Directive({ selector: '[appHighlight]' }) define la directiva appHighlight y especifica que se puede aplicar a elementos con el atributo appHighlight.
+@Input() highlightColor: string = ''; define una propiedad de entrada (highlightColor) que permite al usuario especificar un color de resaltado cuando utiliza la directiva.
+@HostListener escucha eventos en el elemento que tiene la directiva. En este caso, escuchamos los eventos mouseenter y mouseleave y llamamos a las funciones correspondientes.
+private highlight(color: string) es una función privada que cambia el color de fondo del elemento en función del color proporcionado.
+  This is a second line.
   ###  Event Binding  
   👀  [URL Event binding](https://angular.io/guide/event-binding) 
