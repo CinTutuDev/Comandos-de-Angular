@@ -5,17 +5,17 @@
 <img src="https://readme-typing-svg.demolab.com?font=Pixel Emulator&size=40&color=DD0031&center=true&vCenter=true&width=940&lines=Comandos+De+Angular" align="middle" alt=""  width="80%"/>
 </p>
 
-# ${\color{orange}Indice }$
+# Indice 
 
- 0. ##  ${\color{#04d220}Iniciar\space el \space Proyecto}$<a href="#iniciar-el-proyecto"> 🖲</a>
+ 1. ##  ${\color{#04d220}Iniciar\space el \space Proyecto}$<a href="#iniciar-el-proyecto"> 🖲</a>
    - ${\color{#04d220}Instalar\space  Angular\space Material}$<a href="#instalar-angular-material"> 🖲</a>
 
    - ${\color{#04d220}Cambiar\space directorio\space del\space proyecto\space}$<a href="#instalar-angular-material"> 🖲</a>
 
-1. ##  ${\color{#04d220}Iniciar\space en\space servidor}$<a href="#iniciar-en-servidor">🌐</a>
+2. ##  ${\color{#04d220}Iniciar\space en\space servidor}$<a href="#iniciar-en-servidor">🌐</a>
 
-2. ##  ${\color{#04d220}Cambiar\space puertos}$<a href="#cambiar-puertos">⚙️</a>
-3. ##  ${\color{#04d220}Componentes}$<a href="#componentes">🔧</a>
+3. ##  ${\color{#04d220}Cambiar\space puertos}$<a href="#cambiar-puertos">⚙️</a>
+4. ##  ${\color{#04d220}Componentes}$<a href="#componentes">🔧</a>
   -  ${\color{#04d220}Crear\space  nuevo\space componente}$<a href="#crear-nuevo-componente">🔧</a>
       * ${\color{#04d220}Sin\space tests}$<a href="#sin-tests">🔧</a>
       *  ${\color{#04d220}Sin\space tests\space y \space hoja\space de\space estilos}$<a href="#sin-tests-y-estilos">🔧</a>
@@ -25,7 +25,7 @@
       * ${\color{#04d220}Generar\space componente \space dentro\space de\space otro\space componente}$<a href="#generar-componente-dentro-de-otro-componente">🔧</a>
       *  ${\color{#04d220}Sin\space importar \space en\space app-module}$<a href="#sin-importar-en-app-module">🔧</a>
       
-4. ##  ${\color{#04d220}Modulos}$<a href="#modulos">🧩</a>
+5. ##  ${\color{#04d220}Modulos}$<a href="#modulos">🧩</a>
   -  ${\color{#04d220}Crear\space nuevo\space modulo}$<a href="#crear-nuevo-modulo">🧩</a>
    
    -  ${\color{#04d220}Especificar\space carpeta\space de\space destino}$<a href="#especificar-carpeta-de-destino">🧩</a>
@@ -34,22 +34,22 @@
 
    -  ${\color{#04d220}Crear\space componente\space en\space el\space modulo}$<a href="#crear-componente-en-el-modulo">🧩</a>
 
-5.  ##  ${\color{#04d220}Servicios}$<a href="#servicios">📡</a>
+6.  ##  ${\color{#04d220}Servicios}$<a href="#servicios">📡</a>
  - ${\color{#04d220}Crear\space nuevo\space servicio}$<a href="#crear-nuevo-servicio">📡</a>
 
-6.  ##  ${\color{#04d220}Routing}$<a href="#routing">🔗</a>
+7.  ##  ${\color{#04d220}Routing}$<a href="#routing">🔗</a>
  - ${\color{#04d220}Configurar\space Enrutamiento\space}$<a href="#configurar-enrutamiento">🔗</a>   
 
-7.  ##  ${\color{#04d220}Guard}$<a href="#guard">🛡️</a>
+8.  ##  ${\color{#04d220}Guard}$<a href="#guard">🛡️</a>
  - ${\color{#04d220}Crear\space guard\space}$<a href="#crear-guard">🛡️</a>
    - ${\color{#04d220}Crear\space guard\space con\space CanActivate}$<a href="#crear-guard-con-canactivate">🛡️</a>
 
-8.  ##  ${\color{#04d220}Flat\space}$<a href="#flat">📁</a>
+9.  ##  ${\color{#04d220}Flat\space}$<a href="#flat">📁</a>
 
-9.   ##  ${\color{#04d220}Pipes\space}$<a href="#pipes">🌀</a>
+10.   ##  ${\color{#04d220}Pipes\space}$<a href="#pipes">🌀</a>
    -  ${\color{#04d220}Crear\space pipes\space pipes}$<a href="#crear-pipes">🌀</a>
 
-10. ##  ${\color{#04d220}Directivas\space}$<a href="#pipes">📐</a>
+11. ##  ${\color{#04d220}Directivas\space}$<a href="#pipes">📐</a>
    -  ${\color{#04d220}Directivas\space estructurales\space}$<a href="#directivas-estructurales">📐</a>
          -  ${\color{#04d220}Ejemplos}$<a href="#ejemplos-estructurales">📐</a>
    -  ${\color{#04d220}Directivas\space de\space atributo}$<a href="#directivas-de-atributo">📐</a>
@@ -79,7 +79,7 @@
 
 <!-- ---------------1------------------------------------------------>
 1. ## Iniciar el Proyecto
- ${\color{#04d220}Back}$<a href="#iniciar-el-proyecto"> 🔙 </a>
+ 
   - ${\color{blue}Modo \space basico  }$
 ```
 ng new nombre-del-proyecto
@@ -111,10 +111,11 @@ ng add @angular/material
 
 # Ejemplo
 ng new myApp --directory="C:\New-Folder\"
-``` 
+```
+  ###   ${\color{orange}Back\space}$<a href="#indice"> 🔙</a> 
 
 2. ## Iniciar en servidor
- ${\color{#04d220}Back}$<a href="#iniciar-en-servidor"> 🔙 </a>
+
 ```
 ng serve -o
 ```
@@ -131,12 +132,17 @@ ng s -o
 npm start
 ```
 
+ ###   ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
 3. ## Cambiar puertos
+
 ```
 ng serve --port 4200
-``` 
+```
+
+ ###   ${\color{orange}Back\space}$<a href="#indice"> 🔙</a> 
 
 4. ## Componentes
+ 
    ### Crear nuevo componente
 ```
 ng g c componente-nombre
@@ -170,7 +176,10 @@ ng g c mi-carpeta/componente-nombre
 ```
  ng g c mi-carpeta/componente-nombre --skip-import
 ```
+
+ ###   ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
 5. ## Modulos 
+
    ###  Crear nuevo modulo 
     ```
      ng g m modulo-nombre
@@ -193,8 +202,11 @@ ng g c mi-carpeta/componente-nombre
     # 2º se crear el componenete con el nombre modulo
     ng g c Nombremodulo/nombre-Componente --flat --skip-tests
     ```
-   
+
+ ###   ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
+
 6. ## Servicios
+
    ### Crear nuevo servicio
    ```
     ng g s nuevo-servicio --skip-tests
@@ -214,18 +226,19 @@ ng g c mi-carpeta/componente-nombre
    ```
     ng g guard nombreGuard --implements=CanActivate --skip-tests
    ```
+
+ ###   ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
 9. ## flat
-    
-  - ${\color{blue}Crear \space dentro\space del\space directorio\space sin\space carpeta}$
+
 ```
 ng g c mi-carpeta/componente-nombre --flat
 ```    
-10. ## Pipes
+10.  ## Pipes
     ### Crear pipes
     ```
     ng generate pipe nombre-pipe --skip-import
     ```
-11. ## Directivas
+11.  ## Directivas
     ### Directivas estructurales
    - \*ngIf
      - \ngIfElse 
@@ -370,6 +383,7 @@ handleSubmit() {
 <input (blur)="handleBlur()" placeholder="Pierdo el foco">
 
 ``` 
+
   ### Directivas personalizadas
   ```
   ng g d nombre-directiva --skip-import
@@ -404,6 +418,8 @@ export class NombreDirectivaDirective {
   Pasa el ratón sobre mí
 </div>
   ```
+  
+ ###   ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
 Explicaciòn[^2].
 
 [^2]: @Directive({ selector: '[appHighlight]' }) define la directiva appHighlight y especifica que se puede aplicar a elementos con el atributo appHighlight.
@@ -481,3 +497,4 @@ private highlight(color: string) es una función privada que cambia el color de 
         export class AppModule {}
         ```
 
+ ###   ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
