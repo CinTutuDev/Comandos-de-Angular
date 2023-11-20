@@ -81,6 +81,14 @@
    - ${\color{#04d220}ngDoCheck }$<a href="#ngdocheck">🌱</a> 
    - ${\color{#04d220}ngAfterViewInit }$<a href="#ngafterviewinit">🌱</a>
    - ${\color{#04d220}ngOnDestroy }$<a href="#ngondestroy">🌱</a>
+
+15. ## ${\color{#04d220}URL\space Importantes}$<a href="#url-importantes">🚀</a>
+   - ${\color{#04d220}Diseño }$<a href="#diseño">🚀</a>
+   - ${\color{#04d220}Tutoriales }$<a href="#tutoriales">🚀</a>
+   - ${\color{#04d220}APIs }$<a href="#apis">🚀</a> 
+   - ${\color{#04d220}Librerías}$<a href="#librerias">🚀</a>
+   - ${\color{#04d220}HostListener }$<a href="#hostlistener">🚀</a>
+   - ${\color{#04d220}Repositorios }$<a href="#repositorios">![GitHub](https://i.imgur.com/9I6NRUm.png)</a>
   
   
       
@@ -572,3 +580,18 @@ export class CiclosDeVidaComponent implements OnChanges, OnInit, DoCheck, AfterV
 ```
 
 ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
+
+15.  ## URL importantes
+     ### Diseño
+       * Diseño 👉 [Bootstrap](https://getbootstrap.com/)
+       * Flexbox  👉  [Conceptos básicos](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox)
+       * Migrar de css a scss 👉 [npmjs](https://www.npmjs.com/package/schematics-scss-migrate)
+     ### Tutoriales
+       * NETLIFY 👉 [Publicar WEB NETLIFY](https://www.youtube.com/watch?v=7W6-jSOFMgM) 
+     ### APIs
+       * API Restcountries 👉 [Restcountries](https://restcountries.com/)
+     ### HostListener
+       * HostListener👉 [Angular API ](https://angular.io/api/core/HostListener) 
+     ### Librerias
+       * RxJS 👉 [librería Observables](https://rxjs.dev/)
+  
