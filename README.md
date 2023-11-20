@@ -88,7 +88,7 @@
    - ${\color{#04d220}APIs }$<a href="#apis">🚀</a> 
    - ${\color{#04d220}Librerías}$<a href="#librerias">🚀</a>
    - ${\color{#04d220}HostListener }$<a href="#hostlistener">🚀</a>
-   - ${\color{#04d220}Repositorios }$<a href="#repositorios">![GitHub](https://i.imgur.com/9I6NRUm.png)</a>
+   - ${\color{#04d220}Repositorios }$<a href="#repositorios">🐙</a>
   
   
       
