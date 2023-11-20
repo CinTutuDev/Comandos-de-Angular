@@ -74,8 +74,16 @@
    -  ${\color{#04d220}Modo\space producción}$<a href="#producción">🔄</a>
     
 13. ##  ${\color{#04d220}Interceptor}$<a href="#interceptor">🚥</a>
+
+14. ## ${\color{#04d220}Ciclos\space de\space vida}$<a href="#ciclos-de-vida">🌱</a>
+   - ${\color{#04d220}ngOnChanges }$<a href="#ngonchanges">🌱</a>
+   - ${\color{#04d220}ngOnInit }$<a href="#ngoninit">🌱</a>
+   - ${\color{#04d220}ngDoCheck }$<a href="#ngdocheck">🌱</a> 
+   - ${\color{#04d220}ngAfterViewInit }$<a href="#ngafterviewinit">🌱</a>
+   - ${\color{#04d220}ngOnDestroy }$<a href="#ngondestroy">🌱</a>
   
-       
+  
+      
 
 <!-- ---------------1------------------------------------------------>
 1. ## Iniciar el Proyecto
@@ -502,3 +510,65 @@ private highlight(color: string) es una función privada que cambia el color de 
         ```
 
  ###   ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
+
+14. ## Ciclos de vida
+    ### ngOnChanges
+    > Se ejecuta cuando hay cambios en las propiedades de entrada del componente.
+    ### ngOnInit
+    > Se ejecuta después de que Angular ha inicializado todas las propiedades del componente.
+    ### ngDoCheck
+    > Se ejecuta durante cada detección de cambios y verificación de expresiones.
+    ### ngAfterViewInit
+    > Se ejecuta después de que la vista del componente y sus vistas secundarias hayan sido inicializadas.
+    ### ngOnDestroy
+    > Se ejecuta después de que la vista del componente y sus vistas secundarias hayan sido inicializadas.
+
+#### Ejemplos 
+```Typescript
+import { Component, OnChanges, OnInit, DoCheck, AfterViewInit, OnDestroy } from '@angular/core';
+
+@Component({
+  selector: 'app-ciclos-de-vida',
+  template: `
+    <div>
+      <h2>Ciclos de Vida del Componente</h2>
+      <p>{{ message }}</p>
+    </div>
+  `
+})
+export class CiclosDeVidaComponent implements OnChanges, OnInit, DoCheck, AfterViewInit, OnDestroy {
+  message: string = '';
+
+  constructor() {
+    console.log('Constructor');
+    this.message += 'Constructor\n';
+  }
+
+  ngOnChanges() {
+    console.log('ngOnChanges');
+    this.message += 'ngOnChanges\n';
+  }
+
+  ngOnInit() {
+    console.log('ngOnInit');
+    this.message += 'ngOnInit\n';
+  }
+
+  ngDoCheck() {
+    console.log('ngDoCheck');
+    this.message += 'ngDoCheck\n';
+  }
+
+  ngAfterViewInit() {
+    console.log('ngAfterViewInit');
+    this.message += 'ngAfterViewInit\n';
+  }
+
+  ngOnDestroy() {
+    console.log('ngOnDestroy');
+    this.message += 'ngOnDestroy\n';
+  }
+}
+```
+
+${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
