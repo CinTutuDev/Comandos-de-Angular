@@ -50,8 +50,23 @@
    -  ${\color{#04d220}Crear\space pipes\space pipes}$<a href="#crear-pipes">🌀</a>
 
 11. ##  ${\color{#04d220}Directivas\space}$<a href="#pipes">📐</a>
-   -  ${\color{#04d220}Directivas\space estrcuturales\space}$<a href="#directivas-estrcuturales">📐</a>
-         -  ${\color{#04d220}Ejemplos}$<a href="#ejemplos">📐</a>
+   -  ${\color{#04d220}Directivas\space estructurales\space}$<a href="#directivas-estructurales">📐</a>
+         -  ${\color{#04d220}Ejemplos}$<a href="#ejemplos-estructurales">📐</a>
+   -  ${\color{#04d220}Directivas\space de\space atributo}$<a href="#directivas-de-atributo">📐</a>
+         -  ${\color{#04d220}Ejemplos}$<a href="#ejemplos-atributo">📐</a>
+   -  ${\color{#04d220}Directivas\space de\space eventos}$<a href="#directivas-de-eventos">📐</a>
+   
+      * ${\color{#04d220}Ejemplos\space eventos}$<a href="#ejemplos-eventos">📐</a>
+         -  ${\color{#04d220}(click)}$<a href="#click">📐</a>
+         -  ${\color{#04d220}(input)}$<a href="#input">📐</a>
+         -  ${\color{#04d220}(submit)}$<a href="#submit">📐</a>
+         - ${\color{#04d220}(mouseout)}$<a href="#mouseout">📐</a> 
+         - ${\color{#04d220}(keyup)}$<a href="#keyup">📐</a> 
+         -  ${\color{#04d220}(keydown)}$<a href="#keydown">📐</a> 
+         -  ${\color{#04d220}(focus)}$<a href="#focus">📐</a>
+         -  ${\color{#04d220}(blur)}$<a href="#blur">📐</a>    
+       -  ${\color{#04d220}URL\space Event\space Binding }$<a href="#event-binding">📐</a>  
+     
 
 <!-- ---------------1------------------------------------------------>
 1. ## Iniciar el Proyecto
@@ -202,12 +217,12 @@ ng g c mi-carpeta/componente-nombre --flat
     ng generate pipe nombre-pipe --skip-import
     ```
 11. ## Directivas
-    ### Directivas estrcuturales
+    ### Directivas estructurales
    - \*ngIf
    - \*ngFor
    - \*ngSwitch
   
-   #### Ejemplos
+   #### Ejemplos estructurales
    - \*ngIf (Condicional)
 ```html
 <div *ngIf="mostrarElemento">
@@ -231,4 +246,109 @@ ng g c mi-carpeta/componente-nombre --flat
   </div>
   <p *ngSwitchDefault>Contenido por defecto cuando no coincide ningún caso.</p>
 </div>
+``` 
+   ### Directivas de atributo
+   - [ngStyle] :Permite aplicar clases de manera condicional.
+   - [ngClass] :Permite aplicar estilos de manera condicional.
+   - [ngModel] :Utilizada para la vinculación bidireccional en formularios.
+   
+   #### Ejemplos atributo
+   - [ngStyle]
+ ```html
+ <!-- Aplica un estilo de fondo rojo si la variable fondoRojo es verdadera -->
+<div [ngStyle]="{'background-color': fondoRojo ? 'red' : 'transparent'}">
+  Este elemento tiene fondo rojo si fondoRojo es verdadera.
+</div>
+ ```
+   - [ngClass]
+ ```html
+<!-- Aplica la clase "resaltado" si la variable esVerde es verdadera -->
+<div [ngClass]="{'resaltado': esVerde}">
+  Este elemento tiene la clase "resaltado" si esVerde es verdadera.
+</div>
+ ```
+   - [ngModel]
+ ```html
+<!-- Utiliza ngModel para vincular el valor del input a la variable nombre -->
+<input [(ngModel)]="nombre" placeholder="Ingrese su nombre">
+
+<!-- Muestra el valor vinculado -->
+<p>Tu nombre es: {{ nombre }}</p>
+ ```
+   ### Directivas de eventos
+  - (click): Captura eventos de clic.
+  - (input): Captura eventos de entrada en elementos de formulario.
+  - (submit): Captura eventos de envío de formularios.
+  - (mouseover): Captura eventos cuando el mouse pasa por encima del elemento.
+  - (mouseout): Captura eventos cuando el mouse sale del elemento.
+  - (keyup): Captura eventos de liberación de tecla.
+  - (keydown): Captura eventos de presión de tecla.
+  - (focus): Captura eventos cuando un elemento recibe el foco.
+  - (blur): Captura eventos cuando un elemento pierde el foco.
+  
+  #### Ejemplos eventos
+   - ##### (click) 
+```html
+   <!-- Ejecuta la función handleClick cuando se hace clic en el botón -->
+<button (click)="handleClick()">Haz clic</button>
+``` 
+```TypeScript
+// En el componente TypeScript
+handleChange(event: Event) {
+  const inputElement = event.target as HTMLInputElement;
+  console.log('Texto ingresado:', inputElement.value);
+}
+ ```
+ -  ##### (input) 
+```html
+<!-- Ejecuta la función handleChange cuando se ingresa texto en el campo de entrada -->
+<input (input)="handleChange($event)" placeholder="Ingresa texto">
+``` 
+```TypeScript
+// En el componente TypeScript
+handleChange(event: Event) {
+  const inputElement = event.target as HTMLInputElement;
+  console.log('Texto ingresado:', inputElement.value);
+}
+ ```
+   - ##### (submit) 
+```html
+<!-- Ejecuta la función handleSubmit cuando se envía el formulario -->
+<form (submit)="handleSubmit()">
+  <!-- Otros campos del formulario -->
+  <button type="submit">Enviar</button>
+</form>
+``` 
+```TypeScript
+// En el componente TypeScript
+handleSubmit() {
+  console.log('Formulario enviado');
+  // Puedes realizar acciones adicionales aquí, como enviar datos al servidor.
+}
+ ```
+- ##### (mouseover) 
+```html
+<div (mouseover)="handleMouseOver()">Pasa el mouse aquí</div>
 ```
+-  ##### (mouseout) 
+```html
+<div (mouseout)="handleMouseOut()">Retira el mouse de aquí</div>
+``` 
+-  ##### (keydown) 
+```html
+<input (keydown)="handleKeyDown($event)" placeholder="Presiona una tecla">
+``` 
+-  ##### (focus) 
+```html
+<input (focus)="handleFocus()" placeholder="Enfócame">
+``` 
+-  ##### (blur) 
+```html
+<input (blur)="handleBlur()" placeholder="Pierdo el foco">
+
+``` 
+
+
+
+  ###  Event Binding  
+  👀  [URL Event binding](https://angular.io/guide/event-binding) 
