@@ -88,7 +88,9 @@
    - ${\color{#04d220}APIs }$<a href="#apis">🚀</a> 
    - ${\color{#04d220}Librerías}$<a href="#librerias">🚀</a>
    - ${\color{#04d220}HostListener }$<a href="#hostlistener">🚀</a>
-   - ${\color{#04d220}Repositorios }$<a href="#repositorios">![GitHub](https://i.imgur.com/9I6NRUm.png)</a>
+   - ${\color{#04d220}Repositorios }$<a href="#repositorios">🐙</a>
+     * ${\color{#04d220}Traduciones}$<a href="#traducciones">🐙</a>
+       
   
   
       
@@ -594,4 +596,8 @@ ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
        * HostListener👉 [Angular API ](https://angular.io/api/core/HostListener) 
      ### Librerias
        * RxJS 👉 [librería Observables](https://rxjs.dev/)
+     ### Repositorios
+     * #### Traducciones
+       * Transloco : [Traduciones](https://github.com/ngneat/transloco)
   
+  ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
