@@ -411,7 +411,6 @@ Explicaciòn[^2].
 @Input() highlightColor: string = ''; define una propiedad de entrada (highlightColor) que permite al usuario especificar un color de resaltado cuando utiliza la directiva.
 @HostListener escucha eventos en el elemento que tiene la directiva. En este caso, escuchamos los eventos mouseenter y mouseleave y llamamos a las funciones correspondientes.
 private highlight(color: string) es una función privada que cambia el color de fondo del elemento en función del color proporcionado.
-  This is a second line.
   ###  Event Binding  
   👀  [URL Event binding](https://angular.io/guide/event-binding) 
 
