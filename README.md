@@ -68,8 +68,15 @@
   
   - ${\color{#04d220}Directivas\space personalizadas}$<a href="#directivas-personalizadas">📐</a>
   -  ${\color{#04d220}URL\space Event\space Binding }$<a href="#event-binding">📐</a>
+
+12. ##  ${\color{#04d220}Compilar\space}$<a href="#compilar">🔄</a>
+   - ${\color{#04d220}Modo\space desarrollo\space y\space generar\space dist/ }$<a href="#dist/">🔄</a>
+   -  ${\color{#04d220}Modo\space producción}$<a href="#producción">🔄</a>
     
-     
+13. ##  ${\color{#04d220}Interceptor}$<a href="#interceptor">🚥</a>
+   - ${\color{#04d220}Modo\space desarrollo\space y\space generar\space dist/ }$<a href="#dist/">🔄</a>
+   -  ${\color{#04d220}Modo\space producción}$<a href="#producción">🔄</a>
+       
 
 <!-- ---------------1------------------------------------------------>
 1. ## Iniciar el Proyecto
@@ -407,3 +414,72 @@ private highlight(color: string) es una función privada que cambia el color de 
   This is a second line.
   ###  Event Binding  
   👀  [URL Event binding](https://angular.io/guide/event-binding) 
+
+12.  ## Compilar
+     ### dist/
+     ```
+     ng build 
+     ```
+     ### Producción
+     ```
+     ng build --configuration=production
+     ```
+13. ## Interceptor
+   > Manejan y modifican solicitudes HTTP antes de que se envíen al servidor y las respuestas antes de que lleguen a la aplicación. Aquí hay un ejemplo sencillo de cómo podrías usar un interceptor.
+
+   - Ejemplo 
+      - ${\color{blue}1º Generar\space interceptor}$  
+        ```bash
+        ng g interceptor my-interceptor --skip-tests
+        ```
+      - ${\color{blue}2º Implementar\space lógica\space en\space el \space interceptor}$
+  
+        ```typescript
+        // my-interceptor.interceptor.ts
+
+        import { Injectable } from '@angular/core';
+        import { HttpInterceptor, HttpRequest, HttpHandler, HttpEvent } from '@angular/common/http';
+        import { Observable } from 'rxjs';
+
+        @Injectable()
+        export class MyInterceptor implements HttpInterceptor {
+          intercept(request: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
+            // Agregamos el encabezado personalizado a la solicitud
+            const modifiedRequest = request.clone({
+              setHeaders: {
+                'X-My-Header': 'ValorPersonalizado'
+              }
+            });
+
+            // Continuamos con la solicitud modificada
+            return next.handle(modifiedRequest);
+          }
+        }
+        ```
+      - ${\color{blue}3º Implementar\space en\space  el\space  módulo \space donde\space  se \space quiera\space  usar\space  o\space  globalmente\space en\space el \space interceptor}$
+
+        ```typescript
+        // app.module.ts
+
+        import { BrowserModule } from '@angular/platform-browser';
+        import { NgModule } from '@angular/core';
+        import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+        import { MyInterceptor } from './path-to-my-interceptor/my-interceptor.interceptor';
+
+        import { AppComponent } from './app.component';
+
+        @NgModule({
+          declarations: [AppComponent],
+          imports: [BrowserModule, HttpClientModule],
+          providers: [
+            {
+              provide: HTTP_INTERCEPTORS,
+              useClass: MyInterceptor,
+              multi: true
+            }
+          ],
+          bootstrap: [AppComponent]
+        })
+        export class AppModule {}
+        ```
+
