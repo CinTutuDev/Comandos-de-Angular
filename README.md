@@ -14,19 +14,19 @@
 
 2. ##  ${\color{#00dbac}Iniciar\space en\space servidor}$<a href="#iniciar-en-servidor">🌐</a>
 
-3. ##  ${\color{#00dbac}Cambiar\space puertos}$<a href="#cambiar-puertos">⚙️</a>
-4. ##  ${\color{#00dbac}Componentes}$<a href="#componentes">🔧</a>
-  -  ${\color{#dbac00}Crear\space  nuevo\space componente}$<a href="#crear-nuevo-componente">🔧</a>
-      * ${\color{#db00d4}Sin\space tests}$<a href="#sin-tests">🔧</a>
-      *  ${\color{#db00d4}Sin\space tests\space y \space hoja\space de\space estilos}$<a href="#sin-tests-y-estilos">🔧</a>
-      * ${\color{#db00d4}Sin\space template}$<a  href="#sin-template">🔧</a>
-      * ${\color{#db00d4}En\space otro \space directorio}$<a href="#en-otro-directorio">🔧</a>
-      * ${\color{#db00d4}Generar\space componente \space dentro\space del\space app-module}$<a href="#generar-componente-dentro-del-app-module">🔧</a>
-      * ${\color{#db00d4}Generar\space componente \space dentro\space de\space otro\space componente}$<a href="#generar-componente-dentro-de-otro-componente">🔧</a>
-      *  ${\color{#db00d4}Sin\space importar \space en\space app-module}$<a href="#sin-importar-en-app-module">🔧</a>
+3. ##  ${\color{#04d220}Cambiar\space puertos}$<a href="#cambiar-puertos">⚙️</a>
+4. ##  ${\color{#04d220}Componentes}$<a href="#componentes">🔧</a>
+  -  ${\color{#04d220}Crear\space  nuevo\space componente}$<a href="#crear-nuevo-componente">🔧</a>
+      * ${\color{#04d220}Sin\space tests}$<a href="#sin-tests">🔧</a>
+      *  ${\color{#04d220}Sin\space tests\space y \space hoja\space de\space estilos}$<a href="#sin-tests-y-estilos">🔧</a>
+      * ${\color{#04d220}Sin\space template}$<a  href="#sin-template">🔧</a>
+      * ${\color{#04d220}En\space otro \space directorio}$<a href="#en-otro-directorio">🔧</a>
+      * ${\color{#04d220}Generar\space componente \space dentro\space del\space app-module}$<a href="#generar-componente-dentro-del-app-module">🔧</a>
+      * ${\color{#04d220}Generar\space componente \space dentro\space de\space otro\space componente}$<a href="#generar-componente-dentro-de-otro-componente">🔧</a>
+      *  ${\color{#04d220}Sin\space importar \space en\space app-module}$<a href="#sin-importar-en-app-module">🔧</a>
       
-5. ##  ${\color{#00dbac}Modulos}$<a href="#modulos">🧩</a>
-  -  ${\color{#dbac00}Crear\space nuevo\space modulo}$<a href="#crear-nuevo-modulo">🧩</a>
+5. ##  ${\color{#04d220}Modulos}$<a href="#modulos">🧩</a>
+  -  ${\color{#04d220}Crear\space nuevo\space modulo}$<a href="#crear-nuevo-modulo">🧩</a>
    
    -  ${\color{#dbac00}Especificar\space carpeta\space de\space destino}$<a href="#especificar-carpeta-de-destino">🧩</a>
 
