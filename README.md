@@ -97,11 +97,13 @@
    -  ${\color{#04d220}BD}$<a href="#bd">🚀</a>
    -  ${\color{#04d220}Instalables}$<a href="#instalables">🚀</a>
    - ${\color{#04d220}Subir\space Web}$<a href="#subir-web">🚀</a>
+   - ${\color{#04d220}NPMjs}$<a href="#npmjs">🚀</a>
+   - ${\color{#04d220}FernandoH\space PDF}$<a href="#pdf-atajos">🚀</a>
    - ${\color{#04d220}Repositorios }$<a href="#repositorios">🐙</a>
       * ${\color{#04d220}Traducciones}$<a href="#traducciones">🐙</a>
          
 
-16. ## Iniciar el Proyecto
+17. ## Iniciar el Proyecto
  
   - ${\color{blue}Modo \space basico  }$
 ```
@@ -681,11 +683,14 @@ ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
        * Angular Material 👉 [Doc](https://material.angular.io/)       
           * Angular Material schematics 👉 [Guia](https://material.angular.io/guide/schematics/)
       * icons w3schools👉 [w3schools](https://www.w3schools.com/icons/fontawesome_icons_intro.asp) 
+      * GIFS 👉 [giphy](https://developers.giphy.com/) 
+      * Animate.css 👉 [Doc e instalación](https://animate.style/) 
      ### Tutoriales
        * NETLIFY 👉 [Publicar WEB NETLIFY](https://www.youtube.com/watch?v=7W6-jSOFMgM)
        * TMDB 👉 [Hacer peticiones](https://www.youtube.com/watch?v=5iiF_hxhLB4)
        * mongodb 2022 👉 [Instalación y configuración](https://www.youtube.com/watch?v=LibtQECAR1U) 
        * Firebase 👉 [Configuración, registro y subida](https://www.youtube.com/watch?v=P4K59gr8sw0) 
+         * Firebase, Angular e Ionic 👉 [Configuración, registro y subida](https://www.youtube.com/watch?v=_K2Xk_nc9VA) 
        * Netlify 👉 [Configuración, registro y subida ](https://www.youtube.com/watch?v=7W6-jSOFMgM)
      ### APIs
       * APIs gratis 👉 [Listado de APIs](https://profile.es/blog/apis-front-end/)
@@ -703,14 +708,21 @@ ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
        * MongoDB 👉 [mongodb download](https://www.mongodb.com/try/download/community)
        * Robo 3T 👉 [robomongo download](https://robomongo.org/y)
       ### Instalables
+       * Ionic 👉 [ionicframework](https://ionicframework.com/docs/)
        * Capacitor 👉 [capacitorjs](https://capacitorjs.com/)
        ### Subir Web
        * Firebase 👉 [firebase](https://firebase.google.com/?hl=es-419)
        * Netlify 👉 [Netlify ](https://www.netlify.com/)
+     ### NPMjs 
+       * http-server 👉 [HTTP estático simple](https://www.npmjs.com/package/http-server)
+       * del-cli 👉 [del-cli](https://www.npmjs.com/package/del-cli)
+       * copyfiles 👉 [copiar archivos](https://www.npmjs.com/package/copyfiles)
+     ### PDF Atajos 
+       PDF atajos: [FernendoH][angular-cheat-sheet.pdf](https://github.com/CinTutuDev/pipesApp/files/12585594/angular-cheat-sheet.pdf)
      ### Repositorios
        * #### Traducciones
          *  Transloco : [Traduciones](https://github.com/ngneat/transloco)
-         *  Readme instalacion mongodb, nodemon, robo3T  : [Intalaciones](https://github.com/CinTutuDev/BackendFotogramServe/blob/main/README.md)
+        *  Readme instalacion mongodb, nodemon, robo3T  : [Intalaciones](https://github.com/CinTutuDev/BackendFotogramServe/blob/main/README.md)
 
 
 
