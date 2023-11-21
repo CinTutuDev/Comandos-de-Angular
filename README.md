@@ -676,7 +676,8 @@ ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
      ```  
 15.  ## URL importantes
      ### Diseño
-       * Diseño 👉 [Bootstrap](https://getbootstrap.com/)
+       * Bootstrap 👉 [Biblioteca Bootstrap](https://getbootstrap.com/)
+       * PrimeNG 👉 [Biblioteca de componentes](¡https://primeng.org/installation)
        * Flexbox  👉  [Conceptos básicos](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox)
        * Migrar de css a scss 👉 [npmjs](https://www.npmjs.com/package/schematics-scss-migrate)
        * Generador códigos QR 👉 [QR Planet](https://qrplanet.com/es)
@@ -692,6 +693,7 @@ ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
        * Firebase 👉 [Configuración, registro y subida](https://www.youtube.com/watch?v=P4K59gr8sw0) 
          * Firebase, Angular e Ionic 👉 [Configuración, registro y subida](https://www.youtube.com/watch?v=_K2Xk_nc9VA) 
        * Netlify 👉 [Configuración, registro y subida ](https://www.youtube.com/watch?v=7W6-jSOFMgM)
+       * PrimeNG 👉 [Instalación GH](https://github.com/CinTutuDev/pipesApp/edit/main/README.md)
      ### APIs
       * APIs gratis 👉 [Listado de APIs](https://profile.es/blog/apis-front-end/)
        * API Restcountries 👉 [Restcountries](https://restcountries.com/)
