@@ -42,7 +42,7 @@
 
 8.  ##  ${\color{#00dbac}Guard}$<a href="#guard">🛡️</a>
  - ${\color{#dbac00}Crear\space guard\space}$<a href="#crear-guard">🛡️</a>
-   - ${\color{#04d220}Crear\space guard\space con\space CanActivate}$<a href="#crear-guard-con-canactivate">🛡️</a>
+   - ${\color{#db0700}Crear\space guard\space con\space CanActivate}$<a href="#crear-guard-con-canactivate">🛡️</a>
 
 9.  ##  ${\color{#00dbac}Flat\space}$<a href="#flat">📁</a>
 
@@ -56,20 +56,20 @@
    -  ${\color{#dbac00}Generar\space Confirm-box}$<a href="#generar-confirm-box">✔️</a>
 13. ##  ${\color{#00dbac}Directivas\space}$<a href="#pipes">📐</a>
    -  ${\color{#dbac00}Directivas\space estructurales\space}$<a href="#directivas-estructurales">📐</a>
-         -  ${\color{#04d220}Ejemplos}$<a href="#ejemplos-estructurales">📐</a>
+         -  ${\color{#db0700}Ejemplos}$<a href="#ejemplos-estructurales">📐</a>
    -  ${\color{#dbac00}Directivas\space de\space atributo}$<a href="#directivas-de-atributo">📐</a>
-         -  ${\color{#04d220}Ejemplos}$<a href="#ejemplos-atributo">📐</a>
+         -  ${\color{#db0700}Ejemplos}$<a href="#ejemplos-atributo">📐</a>
    -  ${\color{#dbac00}Directivas\space de\space eventos}$<a href="#directivas-de-eventos">📐</a>
    
-      * ${\color{#04d220}Ejemplos\space eventos}$<a href="#ejemplos-eventos">📐</a>
-         -  ${\color{#04d220}(click)}$<a href="#click">📐</a>
-         -  ${\color{#04d220}(input)}$<a href="#input">📐</a>
-         -  ${\color{#04d220}(submit)}$<a href="#submit">📐</a>
-         - ${\color{#04d220}(mouseout)}$<a href="#mouseout">📐</a> 
-         - ${\color{#04d220}(keyup)}$<a href="#keyup">📐</a> 
-         -  ${\color{#04d220}(keydown)}$<a href="#keydown">📐</a> 
-         -  ${\color{#04d220}(focus)}$<a href="#focus">📐</a>
-         -  ${\color{#04d220}(blur)}$<a href="#blur">📐</a>    
+      * ${\color{#db0700}Ejemplos\space eventos}$<a href="#ejemplos-eventos">📐</a>
+         -  ${\color{#009ddb}(click)}$<a href="#click">📐</a>
+         -  ${\color{#009ddb}(input)}$<a href="#input">📐</a>
+         -  ${\color{#009ddb}(submit)}$<a href="#submit">📐</a>
+         - ${\color{#009ddb}(mouseout)}$<a href="#mouseout">📐</a> 
+         - ${\color{#009ddb}(keyup)}$<a href="#keyup">📐</a> 
+         -  ${\color{#009ddb}(keydown)}$<a href="#keydown">📐</a> 
+         -  ${\color{#009ddb}(focus)}$<a href="#focus">📐</a>
+         -  ${\color{#009ddb}(blur)}$<a href="#blur">📐</a>    
   
   - ${\color{#dbac00}Directivas\space personalizadas}$<a href="#directivas-personalizadas">📐</a>
   -  ${\color{#dbac00}URL\space Event\space Binding }$<a href="#event-binding">📐</a>
@@ -100,7 +100,7 @@
    - ${\color{#dbac00}NPMjs}$<a href="#npmjs">🚀</a>
    - ${\color{#dbac00}FernandoH\space PDF}$<a href="#pdf-atajos">🚀</a>
    - ${\color{#dbac00}Repositorios }$<a href="#repositorios">🐙</a>
-      * ${\color{#04d220}Traducciones}$<a href="#traducciones">🐙</a>
+      * ${\color{#009ddb}Traducciones}$<a href="#traducciones">🐙</a>
          
 
 17. ## Iniciar el Proyecto
