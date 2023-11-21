@@ -14,19 +14,19 @@
 
 2. ##  ${\color{#00dbac}Iniciar\space en\space servidor}$<a href="#iniciar-en-servidor">🌐</a>
 
-3. ##  ${\color{#04d220}Cambiar\space puertos}$<a href="#cambiar-puertos">⚙️</a>
-4. ##  ${\color{#04d220}Componentes}$<a href="#componentes">🔧</a>
-  -  ${\color{#04d220}Crear\space  nuevo\space componente}$<a href="#crear-nuevo-componente">🔧</a>
-      * ${\color{#04d220}Sin\space tests}$<a href="#sin-tests">🔧</a>
-      *  ${\color{#04d220}Sin\space tests\space y \space hoja\space de\space estilos}$<a href="#sin-tests-y-estilos">🔧</a>
-      * ${\color{#04d220}Sin\space template}$<a  href="#sin-template">🔧</a>
-      * ${\color{#04d220}En\space otro \space directorio}$<a href="#en-otro-directorio">🔧</a>
-      * ${\color{#04d220}Generar\space componente \space dentro\space del\space app-module}$<a href="#generar-componente-dentro-del-app-module">🔧</a>
-      * ${\color{#04d220}Generar\space componente \space dentro\space de\space otro\space componente}$<a href="#generar-componente-dentro-de-otro-componente">🔧</a>
-      *  ${\color{#04d220}Sin\space importar \space en\space app-module}$<a href="#sin-importar-en-app-module">🔧</a>
+3. ##  ${\color{#00dbac}Cambiar\space puertos}$<a href="#cambiar-puertos">⚙️</a>
+4. ##  ${\color{#00dbac}Componentes}$<a href="#componentes">🔧</a>
+  -  ${\color{#dbac00}Crear\space  nuevo\space componente}$<a href="#crear-nuevo-componente">🔧</a>
+      * ${\color{#db0700}Sin\space tests}$<a href="#sin-tests">🔧</a>
+      *  ${\color{#db0700}Sin\space tests\space y \space hoja\space de\space estilos}$<a href="#sin-tests-y-estilos">🔧</a>
+      * ${\color{#db0700}Sin\space template}$<a  href="#sin-template">🔧</a>
+      * ${\color{#db0700}En\space otro \space directorio}$<a href="#en-otro-directorio">🔧</a>
+      * ${\color{#db0700}Generar\space componente \space dentro\space del\space app-module}$<a href="#generar-componente-dentro-del-app-module">🔧</a>
+      * ${\color{#db0700}Generar\space componente \space dentro\space de\space otro\space componente}$<a href="#generar-componente-dentro-de-otro-componente">🔧</a>
+      *  ${\color{#db0700}Sin\space importar \space en\space app-module}$<a href="#sin-importar-en-app-module">🔧</a>
       
-5. ##  ${\color{#04d220}Modulos}$<a href="#modulos">🧩</a>
-  -  ${\color{#04d220}Crear\space nuevo\space modulo}$<a href="#crear-nuevo-modulo">🧩</a>
+5. ##  ${\color{#00dbac}Modulos}$<a href="#modulos">🧩</a>
+  -  ${\color{#dbac00}Crear\space nuevo\space modulo}$<a href="#crear-nuevo-modulo">🧩</a>
    
    -  ${\color{#dbac00}Especificar\space carpeta\space de\space destino}$<a href="#especificar-carpeta-de-destino">🧩</a>
 
@@ -34,32 +34,32 @@
 
    -  ${\color{#dbac00}Crear\space componente\space en\space el\space modulo}$<a href="#crear-componente-en-el-modulo">🧩</a>
 
-6.  ##  ${\color{#04d220}Servicios}$<a href="#servicios">📡</a>
- - ${\color{#04d220}Crear\space nuevo\space servicio}$<a href="#crear-nuevo-servicio">📡</a>
+6.  ##  ${\color{#00dbac}Servicios}$<a href="#servicios">📡</a>
+ - ${\color{#dbac00}Crear\space nuevo\space servicio}$<a href="#crear-nuevo-servicio">📡</a>
 
-7.  ##  ${\color{#04d220}Routing}$<a href="#routing">🔗</a>
- - ${\color{#04d220}Configurar\space Enrutamiento\space}$<a href="#configurar-enrutamiento">🔗</a>   
+7.  ##  ${\color{#00dbac}Routing}$<a href="#routing">🔗</a>
+ - ${\color{#dbac00}Configurar\space Enrutamiento\space}$<a href="#configurar-enrutamiento">🔗</a>   
 
-8.  ##  ${\color{#04d220}Guard}$<a href="#guard">🛡️</a>
- - ${\color{#04d220}Crear\space guard\space}$<a href="#crear-guard">🛡️</a>
+8.  ##  ${\color{#00dbac}Guard}$<a href="#guard">🛡️</a>
+ - ${\color{#dbac00}Crear\space guard\space}$<a href="#crear-guard">🛡️</a>
    - ${\color{#04d220}Crear\space guard\space con\space CanActivate}$<a href="#crear-guard-con-canactivate">🛡️</a>
 
-9.  ##  ${\color{#04d220}Flat\space}$<a href="#flat">📁</a>
+9.  ##  ${\color{#00dbac}Flat\space}$<a href="#flat">📁</a>
 
-10.   ##  ${\color{#04d220}Pipes\space}$<a href="#pipes">🌀</a>
-   -  ${\color{#04d220}Crear\space pipes\space}$<a href="#crear-pipes">🌀</a>
+10.   ##  ${\color{#00dbac}Pipes\space}$<a href="#pipes">🌀</a>
+   -  ${\color{#dbac00}Crear\space pipes\space}$<a href="#crear-pipes">🌀</a>
   
-11.   ##  ${\color{#04d220}Popup\space}$<a href="#popup">💬</a>
-   -  ${\color{#04d220}Generar\space Popup}$<a href="#generar-popup">💬</a>
+11.   ##  ${\color{#00dbac}Popup\space}$<a href="#popup">💬</a>
+   -  ${\color{#dbac00}Generar\space Popup}$<a href="#generar-popup">💬</a>
   
-12. ##  ${\color{#04d220}Confirm-box\space}$<a href="#confirm-box">✔️</a>
-   -  ${\color{#04d220}Generar\space Confirm-box}$<a href="#generar-confirm-box">✔️</a>
-13. ##  ${\color{#04d220}Directivas\space}$<a href="#pipes">📐</a>
-   -  ${\color{#04d220}Directivas\space estructurales\space}$<a href="#directivas-estructurales">📐</a>
+12. ##  ${\color{#00dbac}Confirm-box\space}$<a href="#confirm-box">✔️</a>
+   -  ${\color{#dbac00}Generar\space Confirm-box}$<a href="#generar-confirm-box">✔️</a>
+13. ##  ${\color{#00dbac}Directivas\space}$<a href="#pipes">📐</a>
+   -  ${\color{#dbac00}Directivas\space estructurales\space}$<a href="#directivas-estructurales">📐</a>
          -  ${\color{#04d220}Ejemplos}$<a href="#ejemplos-estructurales">📐</a>
-   -  ${\color{#04d220}Directivas\space de\space atributo}$<a href="#directivas-de-atributo">📐</a>
+   -  ${\color{#dbac00}Directivas\space de\space atributo}$<a href="#directivas-de-atributo">📐</a>
          -  ${\color{#04d220}Ejemplos}$<a href="#ejemplos-atributo">📐</a>
-   -  ${\color{#04d220}Directivas\space de\space eventos}$<a href="#directivas-de-eventos">📐</a>
+   -  ${\color{#dbac00}Directivas\space de\space eventos}$<a href="#directivas-de-eventos">📐</a>
    
       * ${\color{#04d220}Ejemplos\space eventos}$<a href="#ejemplos-eventos">📐</a>
          -  ${\color{#04d220}(click)}$<a href="#click">📐</a>
@@ -71,35 +71,35 @@
          -  ${\color{#04d220}(focus)}$<a href="#focus">📐</a>
          -  ${\color{#04d220}(blur)}$<a href="#blur">📐</a>    
   
-  - ${\color{#04d220}Directivas\space personalizadas}$<a href="#directivas-personalizadas">📐</a>
-  -  ${\color{#04d220}URL\space Event\space Binding }$<a href="#event-binding">📐</a>
+  - ${\color{#dbac00}Directivas\space personalizadas}$<a href="#directivas-personalizadas">📐</a>
+  -  ${\color{#dbac00}URL\space Event\space Binding }$<a href="#event-binding">📐</a>
 
-12. ##  ${\color{#04d220}Compilar\space}$<a href="#compilar">🔄</a>
-   - ${\color{#04d220}Modo\space desarrollo\space y\space generar\space dist/ }$<a href="#dist">🔄</a>
-   -  ${\color{#04d220}Modo\space producción}$<a href="#producción">🔄</a>
+12. ##  ${\color{#00dbac}Compilar\space}$<a href="#compilar">🔄</a>
+   - ${\color{#dbac00}Modo\space desarrollo\space y\space generar\space dist/ }$<a href="#dist">🔄</a>
+   -  ${\color{#dbac00}Modo\space producción}$<a href="#producción">🔄</a>
     
-13. ##  ${\color{#04d220}Interceptor}$<a href="#interceptor">🚥</a>
+13. ##  ${\color{#00dbac}Interceptor}$<a href="#interceptor">🚥</a>
 
-14. ## ${\color{#04d220}Ciclos\space de\space vida}$<a href="#ciclos-de-vida">🌱</a>
-   - ${\color{#04d220}ngOnChanges }$<a href="#ngonchanges">🌱</a>
-   - ${\color{#04d220}ngOnInit }$<a href="#ngoninit">🌱</a>
-   - ${\color{#04d220}ngDoCheck }$<a href="#ngdocheck">🌱</a> 
-   - ${\color{#04d220}ngAfterViewInit }$<a href="#ngafterviewinit">🌱</a>
-   - ${\color{#04d220}ngOnDestroy }$<a href="#ngondestroy">🌱</a>
-15. ##  ${\color{#04d220}Crear\space JSON\space Server }$<a href="#crear-json-server">📊</a>
+14. ## ${\color{#00dbac}Ciclos\space de\space vida}$<a href="#ciclos-de-vida">🌱</a>
+   - ${\color{#dbac00}ngOnChanges }$<a href="#ngonchanges">🌱</a>
+   - ${\color{#dbac00}ngOnInit }$<a href="#ngoninit">🌱</a>
+   - ${\color{#dbac00}ngDoCheck }$<a href="#ngdocheck">🌱</a> 
+   - ${\color{#dbac00}ngAfterViewInit }$<a href="#ngafterviewinit">🌱</a>
+   - ${\color{#dbac00}ngOnDestroy }$<a href="#ngondestroy">🌱</a>
+15. ##  ${\color{#00dbac}Crear\space JSON\space Server }$<a href="#crear-json-server">📊</a>
     
-16. ## ${\color{#04d220}URL\space Importantes}$<a href="#url-importantes">🚀</a>
-   - ${\color{#04d220}Diseño }$<a href="#diseño">🚀</a>
-   - ${\color{#04d220}Tutoriales }$<a href="#tutoriales">🚀</a>
-   - ${\color{#04d220}APIs }$<a href="#apis">🚀</a> 
-   - ${\color{#04d220}Librerías}$<a href="#librerias">🚀</a>
-   - ${\color{#04d220}HostListener }$<a href="#hostlistener">🚀</a>
-   -  ${\color{#04d220}BD}$<a href="#bd">🚀</a>
-   -  ${\color{#04d220}Instalables}$<a href="#instalables">🚀</a>
-   - ${\color{#04d220}Subir\space Web}$<a href="#subir-web">🚀</a>
-   - ${\color{#04d220}NPMjs}$<a href="#npmjs">🚀</a>
-   - ${\color{#04d220}FernandoH\space PDF}$<a href="#pdf-atajos">🚀</a>
-   - ${\color{#04d220}Repositorios }$<a href="#repositorios">🐙</a>
+16. ## ${\color{#00dbac}URL\space Importantes}$<a href="#url-importantes">🚀</a>
+   - ${\color{#dbac00}Diseño }$<a href="#diseño">🚀</a>
+   - ${\color{#dbac00}Tutoriales }$<a href="#tutoriales">🚀</a>
+   - ${\color{#dbac00}APIs }$<a href="#apis">🚀</a> 
+   - ${\color{#dbac00}Librerías}$<a href="#librerias">🚀</a>
+   - ${\color{#dbac00}HostListener }$<a href="#hostlistener">🚀</a>
+   -  ${\color{#dbac00}BD}$<a href="#bd">🚀</a>
+   -  ${\color{#dbac00}Instalables}$<a href="#instalables">🚀</a>
+   - ${\color{#dbac00}Subir\space Web}$<a href="#subir-web">🚀</a>
+   - ${\color{#dbac00}NPMjs}$<a href="#npmjs">🚀</a>
+   - ${\color{#dbac00}FernandoH\space PDF}$<a href="#pdf-atajos">🚀</a>
+   - ${\color{#dbac00}Repositorios }$<a href="#repositorios">🐙</a>
       * ${\color{#04d220}Traducciones}$<a href="#traducciones">🐙</a>
          
 
