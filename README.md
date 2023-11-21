@@ -47,9 +47,14 @@
 9.  ##  ${\color{#04d220}Flat\space}$<a href="#flat">📁</a>
 
 10.   ##  ${\color{#04d220}Pipes\space}$<a href="#pipes">🌀</a>
-   -  ${\color{#04d220}Crear\space pipes\space pipes}$<a href="#crear-pipes">🌀</a>
-
-11. ##  ${\color{#04d220}Directivas\space}$<a href="#pipes">📐</a>
+   -  ${\color{#04d220}Crear\space pipes\space}$<a href="#crear-pipes">🌀</a>
+  
+11.   ##  ${\color{#04d220}Popup\space}$<a href="#popup">💬</a>
+   -  ${\color{#04d220}Generar\space Popup}$<a href="#generar-popup">💬</a>
+  
+12. ##  ${\color{#04d220}Confirm-box\space}$<a href="#confirm-box">✔️</a>
+   -  ${\color{#04d220}Generar\space Confirm-box}$<a href="#generar-confirm-box">✔️</a>
+13. ##  ${\color{#04d220}Directivas\space}$<a href="#pipes">📐</a>
    -  ${\color{#04d220}Directivas\space estructurales\space}$<a href="#directivas-estructurales">📐</a>
          -  ${\color{#04d220}Ejemplos}$<a href="#ejemplos-estructurales">📐</a>
    -  ${\color{#04d220}Directivas\space de\space atributo}$<a href="#directivas-de-atributo">📐</a>
@@ -81,23 +86,22 @@
    - ${\color{#04d220}ngDoCheck }$<a href="#ngdocheck">🌱</a> 
    - ${\color{#04d220}ngAfterViewInit }$<a href="#ngafterviewinit">🌱</a>
    - ${\color{#04d220}ngOnDestroy }$<a href="#ngondestroy">🌱</a>
-
-15. ## ${\color{#04d220}URL\space Importantes}$<a href="#url-importantes">🚀</a>
+15. ##  ${\color{#04d220}Crear\space JSON\space Server }$<a href="#crear-json-server">📊</a>
+    
+16. ## ${\color{#04d220}URL\space Importantes}$<a href="#url-importantes">🚀</a>
    - ${\color{#04d220}Diseño }$<a href="#diseño">🚀</a>
    - ${\color{#04d220}Tutoriales }$<a href="#tutoriales">🚀</a>
    - ${\color{#04d220}APIs }$<a href="#apis">🚀</a> 
    - ${\color{#04d220}Librerías}$<a href="#librerias">🚀</a>
    - ${\color{#04d220}HostListener }$<a href="#hostlistener">🚀</a>
+   -  ${\color{#04d220}BD}$<a href="#bd">🚀</a>
+   -  ${\color{#04d220}Instalables}$<a href="#instalables">🚀</a>
+   - ${\color{#04d220}Subir\space Web}$<a href="#subir-web">🚀</a>
    - ${\color{#04d220}Repositorios }$<a href="#repositorios">🐙</a>
       * ${\color{#04d220}Traducciones}$<a href="#traducciones">🐙</a>
          
-    
-  
-  
-      
 
-<!-- ---------------1------------------------------------------------>
-1. ## Iniciar el Proyecto
+16. ## Iniciar el Proyecto
  
   - ${\color{blue}Modo \space basico  }$
 ```
@@ -106,6 +110,49 @@ ng new nombre-del-proyecto
  - ${\color{blue}Modo \space basico\space blanco }$
 ```
 ng new nombre-del-proyecto --minimal
+```
+ - ${\color{blue}Crear \space con\space tabs }$
+```
+ng new nombre-del-proyecto 
+```
+> Entra al directorio del proyecto: 
+> <br>1º cd nombre-del-proyecto
+> <br>2º Crea los componentes de pestañas:
+> <br>ng g c tab1 --skip-tests
+> <br>ng g c tab2 --skip-tests
+> <br>ng g c tab2 --skip-tests
+> 
+ 
+   - Configura el enrutamiento:
+```Typescript
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
+import { Tab1Component } from './tab1/tab1.component';
+import { Tab2Component } from './tab2/tab2.component';
+import { Tab3Component } from './tab3/tab3.component';
+
+const routes: Routes = [
+  { path: 'tab1', component: Tab1Component },
+  { path: 'tab2', component: Tab2Component },
+  { path: 'tab3', component: Tab3Component },
+  { path: '', redirectTo: '/tab1', pathMatch: 'full' }, // Redirige a tab1 por defecto
+];
+
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
+})
+export class AppRoutingModule { }
+```
+- Modifica el archivo app.component.html:
+```html
+<ul>
+  <li><a routerLink="/tab1">Tab 1</a></li>
+  <li><a routerLink="/tab2">Tab 2</a></li>
+  <li><a routerLink="/tab3">Tab 3</a></li>
+</ul>
+<router-outlet></router-outlet>
+
 ```
  - ${\color{blue}Con \space prefijo \space para \space especificar \space todos \space los \space componentes: }$  
  ```
@@ -253,11 +300,39 @@ ng g c mi-carpeta/componente-nombre
 ng g c mi-carpeta/componente-nombre --flat
 ```    
 10.  ## Pipes
-    ### Crear pipes
-    ```
+     ### Crear pipes
+  ```
     ng generate pipe nombre-pipe --skip-import
-    ```
-11.  ## Directivas
+   ```
+12.  ## Popup
+     ### Generar popup
+     ```
+     npm i ng-angular-popup --force
+     ```
+     * En app.module.ts
+     ```TypeScript
+     import { NgToastModule } from 'ng-angular-popup';
+
+      imports: [
+          NgToastModule
+      ],
+      ```
+###  ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>  
+  12. ## Confirm-box
+      ### Generar confirm-box
+      ```
+      npm i ng-confirm-box --force
+     ```
+      * En app.module.ts
+     ```TypeScript
+     import { NgConfirmModule } from 'ng-confirm-box';
+
+      imports: [
+        NgConfirmModule
+      ],
+      ```
+###  ${\color{orange}Back\space}$<a href="#indice"> 🔙</a> 
+1.   ## Directivas
     ### Directivas estructurales
    - \*ngIf
      - \ngIfElse 
@@ -584,22 +659,58 @@ export class CiclosDeVidaComponent implements OnChanges, OnInit, DoCheck, AfterV
 
 ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
 
+14. ## Crear JSON Server
+    * Installar de manera global
+     ```
+      npm i -g json-server
+     ```
+    * Crear db.json
+     ```
+      json-server --watch db.json
+     ``` 
+    * Levantar db.json
+     ```
+      json-server --watch db.json
+     ```  
 15.  ## URL importantes
      ### Diseño
        * Diseño 👉 [Bootstrap](https://getbootstrap.com/)
        * Flexbox  👉  [Conceptos básicos](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox)
        * Migrar de css a scss 👉 [npmjs](https://www.npmjs.com/package/schematics-scss-migrate)
+       * Generador códigos QR 👉 [QR Planet](https://qrplanet.com/es)
+       * Angular Material 👉 [Doc](https://material.angular.io/)       
+          * Angular Material schematics 👉 [Guia](https://material.angular.io/guide/schematics/)
+      * icons w3schools👉 [w3schools](https://www.w3schools.com/icons/fontawesome_icons_intro.asp) 
      ### Tutoriales
-       * NETLIFY 👉 [Publicar WEB NETLIFY](https://www.youtube.com/watch?v=7W6-jSOFMgM) 
+       * NETLIFY 👉 [Publicar WEB NETLIFY](https://www.youtube.com/watch?v=7W6-jSOFMgM)
+       * TMDB 👉 [Hacer peticiones](https://www.youtube.com/watch?v=5iiF_hxhLB4)
+       * mongodb 2022 👉 [Instalación y configuración](https://www.youtube.com/watch?v=LibtQECAR1U) 
+       * Firebase 👉 [Configuración, registro y subida](https://www.youtube.com/watch?v=P4K59gr8sw0) 
+       * Netlify 👉 [Configuración, registro y subida ](https://www.youtube.com/watch?v=7W6-jSOFMgM)
      ### APIs
+      * APIs gratis 👉 [Listado de APIs](https://profile.es/blog/apis-front-end/)
        * API Restcountries 👉 [Restcountries](https://restcountries.com/)
+       * API Rick and Morty 👉 [rickandmortyapi](https://rickandmortyapi.com/documentation) 
+       *  API TMDB 👉 [themoviedb](https://developer.themoviedb.org/docs)
+       *  API mapbox 👉 [mapbox](https://account.mapbox.com/auth/signin/?route-to=%22https%3A%2F%2Faccount.mapbox.com%2F%22)
+       *  API newsapi 👉 [News API](https://newsapi.org/) 
+        
      ### HostListener
        * HostListener👉 [Angular API ](https://angular.io/api/core/HostListener) 
      ### Librerias
        * RxJS 👉 [librería Observables](https://rxjs.dev/)
+     ### BD 
+       * MongoDB 👉 [mongodb download](https://www.mongodb.com/try/download/community)
+       * Robo 3T 👉 [robomongo download](https://robomongo.org/y)
+      ### Instalables
+       * Capacitor 👉 [capacitorjs](https://capacitorjs.com/)
+       ### Subir Web
+       * Firebase 👉 [firebase](https://firebase.google.com/?hl=es-419)
+       * Netlify 👉 [Netlify ](https://www.netlify.com/)
      ### Repositorios
        * #### Traducciones
          *  Transloco : [Traduciones](https://github.com/ngneat/transloco)
+         *  Readme instalacion mongodb, nodemon, robo3T  : [Intalaciones](https://github.com/CinTutuDev/BackendFotogramServe/blob/main/README.md)
 
 
 
