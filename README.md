@@ -694,6 +694,7 @@ ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
          * Firebase, Angular e Ionic 👉 [Configuración, registro y subida](https://www.youtube.com/watch?v=_K2Xk_nc9VA) 
        * Netlify 👉 [Configuración, registro y subida ](https://www.youtube.com/watch?v=7W6-jSOFMgM)
        * PrimeNG 👉 [Instalación GH](https://github.com/CinTutuDev/pipesApp/edit/main/README.md)
+       * PrimeNG Modo oscuro 👉 [Modo dark](https://www.youtube.com/watch?v=6wYiYsroqX4)
      ### APIs
       * APIs gratis 👉 [Listado de APIs](https://profile.es/blog/apis-front-end/)
        * API Restcountries 👉 [Restcountries](https://restcountries.com/)
