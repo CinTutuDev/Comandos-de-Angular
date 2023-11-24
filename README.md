@@ -683,7 +683,8 @@ ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
 15.  ## URL importantes
      ### Diseño
        * Bootstrap 👉 [Biblioteca Bootstrap](https://getbootstrap.com/)
-       * PrimeNG 👉 [Biblioteca de componentes](¡https://primeng.org/installation)
+       * PrimeNG 👉 [Biblioteca de componentes](https://primeng.org/installation)
+         * PrimeFLEX 👉 [Biblioteca de utilidades CSS](https://primeflex.org/installation)
        * Flexbox  👉  [Conceptos básicos](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox)
        * Migrar de css a scss 👉 [npmjs](https://www.npmjs.com/package/schematics-scss-migrate)
        * Generador códigos QR 👉 [QR Planet](https://qrplanet.com/es)
