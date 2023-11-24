@@ -34,6 +34,8 @@
 
    -  ${\color{#dbac00}Crear\space componente\space en\space el\space modulo}$<a href="#crear-componente-en-el-modulo">🧩</a>
 
+   -  ${\color{#dbac00}Crear\space modulo\space con\space \space Lazy\space Loaded}$<a href="#crear-modulo-con-lazy-loaded">🧩</a>
+
 6.  ##  ${\color{#00dbac}Servicios}$<a href="#servicios">📡</a>
  - ${\color{#dbac00}Crear\space nuevo\space servicio}$<a href="#crear-nuevo-servicio">📡</a>
 
@@ -269,6 +271,10 @@ ng g c mi-carpeta/componente-nombre
 
     # 2º se crear el componenete con el nombre modulo
     ng g c Nombremodulo/nombre-Componente --flat --skip-tests
+    ```
+    ### Crear modulo con Lazy Loaded
+    ```
+     ng g m products --module app --route products
     ```
 
  ###   ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
