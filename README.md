@@ -733,8 +733,9 @@ ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
      ### Repositorios
        * #### Traducciones
          *  Transloco : [Traduciones](https://github.com/ngneat/transloco)
-        *  Readme instalacion mongodb, nodemon, robo3T  : [Intalaciones](https://github.com/CinTutuDev/BackendFotogramServe/blob/main/README.md)
-
+       * #### Readme instalacion mongodb, nodemon, robo3T  : [Intalaciones](https://github.com/CinTutuDev/BackendFotogramServe/blob/main/README.md)
+       * #### Módulos Angular Material : [Módulos ](https://gist.github.com/Klerith/3d66c1fed17fba27fcd7e90088f8a242)
+ 
 
 
 ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
