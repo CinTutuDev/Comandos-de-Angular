@@ -728,6 +728,7 @@ ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
        * http-server 👉 [HTTP estático simple](https://www.npmjs.com/package/http-server)
        * del-cli 👉 [del-cli](https://www.npmjs.com/package/del-cli)
        * copyfiles 👉 [copiar archivos](https://www.npmjs.com/package/copyfiles)
+       * json-server 👉 [Instalación](https://www.npmjs.com/package/json-server)
      ### PDF Atajos 
        PDF atajos: [FernendoH][angular-cheat-sheet.pdf](https://github.com/CinTutuDev/pipesApp/files/12585594/angular-cheat-sheet.pdf)
      ### Repositorios
