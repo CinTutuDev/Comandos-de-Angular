@@ -748,7 +748,12 @@ ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
 
   > [!IMPORTANT]
   > Información importante
-  
+
+ > [!WARNING]
+ > Atencón del usuario
+
+ > [!CAUTION]
+ > Consecuencias negativas si nos haces caso
 
 
 ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
