@@ -6,6 +6,7 @@
 </p>
 
 # Indice 
+
  1. ##  ${\color{#00dbac}Iniciar\space el \space Proyecto}$<a href="#iniciar-el-proyecto"> 🖲</a>
    - ${\color{#dbac00}Instalar\space  Angular\space Material}$<a href="#instalar-angular-material"> 🖲</a>
 
@@ -736,10 +737,17 @@ ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
          *  Transloco : [Traduciones](https://github.com/ngneat/transloco)
        * #### Readme instalacion mongodb, nodemon, robo3T  : [Intalaciones](https://github.com/CinTutuDev/BackendFotogramServe/blob/main/README.md)
        * #### Módulos Angular Material : [Módulos ](https://gist.github.com/Klerith/3d66c1fed17fba27fcd7e90088f8a242)
-     ### Readme
-       > [!NOTE]
-       > Esto es info adicional
+  
+     ### Tips Readme
+     
+  > [!NOTE]
+  > Esto es info adicional
        
+  > [!TIP]
+  > Una sugerencia o consejo
+
+  > [!IMPORTANT]
+  > Información importante
   
 
 
