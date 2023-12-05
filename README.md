@@ -6,7 +6,6 @@
 </p>
 
 # Indice 
-
  1. ##  ${\color{#00dbac}Iniciar\space el \space Proyecto}$<a href="#iniciar-el-proyecto"> 🖲</a>
    - ${\color{#dbac00}Instalar\space  Angular\space Material}$<a href="#instalar-angular-material"> 🖲</a>
 
@@ -103,6 +102,7 @@
    - ${\color{#dbac00}FernandoH\space PDF}$<a href="#pdf-atajos">🚀</a>
    - ${\color{#dbac00}Repositorios }$<a href="#repositorios">🐙</a>
       * ${\color{#009ddb}Traducciones}$<a href="#traducciones">🐙</a>
+   - ${\color{#dbac00}Readme}$<a href="#tips-readme">🚀</a>
          
 
 17. ## Iniciar el Proyecto
@@ -736,7 +736,11 @@ ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
          *  Transloco : [Traduciones](https://github.com/ngneat/transloco)
        * #### Readme instalacion mongodb, nodemon, robo3T  : [Intalaciones](https://github.com/CinTutuDev/BackendFotogramServe/blob/main/README.md)
        * #### Módulos Angular Material : [Módulos ](https://gist.github.com/Klerith/3d66c1fed17fba27fcd7e90088f8a242)
- 
+     ### Readme
+       > [!NOTE]
+       > Esto es info adicional
+       
+  
 
 
 ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
