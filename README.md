@@ -739,8 +739,8 @@ ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
        * #### Readme instalacion mongodb, nodemon, robo3T  : [Intalaciones](https://github.com/CinTutuDev/BackendFotogramServe/blob/main/README.md)
        * #### Módulos Angular Material : [Módulos ](https://gist.github.com/Klerith/3d66c1fed17fba27fcd7e90088f8a242)
        * #### Formularios Reactivos
-          * Estructura: [Estructura Básica](https://gist.github.com/Klerith/5729dcfb170595f84d1b564a182ffbc2)
-          * Bàsico : [Bassic](https://github.com/CinTutuDev/FormApp/commit/3211dfbcdd059a02956f66d2d3c3e59b689f4606)
+          *  Estructura: [Estructura Básica](https://gist.github.com/Klerith/5729dcfb170595f84d1b564a182ffbc2)
+          *  Bàsico : [Bassic](https://github.com/CinTutuDev/FormApp/commit/3211dfbcdd059a02956f66d2d3c3e59b689f4606)
             
  
      ### Tips Readme
