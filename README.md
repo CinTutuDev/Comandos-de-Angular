@@ -103,7 +103,7 @@
    - ${\color{#dbac00}FernandoH\space PDF}$<a href="#pdf-atajos">🚀</a>
    - ${\color{#dbac00}Repositorios }$<a href="#repositorios">🐙</a>
       * ${\color{#009ddb}Traducciones}$<a href="#traducciones">🐙</a>
-      * ${\color{#009ddb}Formularios\space Reactivos}$<a href="#formularios-reactivos">🐙</a>
+      * ${\color{#009ddb}Formularios}$<a href="#formularios-reactivos">🐙</a>
    - ${\color{#dbac00}Readme}$<a href="#tips-readme">🚀</a>
          
 
