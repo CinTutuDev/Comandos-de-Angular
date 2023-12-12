@@ -103,6 +103,7 @@
    - ${\color{#dbac00}FernandoH\space PDF}$<a href="#pdf-atajos">🚀</a>
    - ${\color{#dbac00}Repositorios }$<a href="#repositorios">🐙</a>
       * ${\color{#009ddb}Traducciones}$<a href="#traducciones">🐙</a>
+      * ${\color{#009ddb}Estrucutra\space Formularios\space Reactivos}$<a href="#formularios-reactivos">🐙</a>
    - ${\color{#dbac00}Readme}$<a href="#tips-readme">🚀</a>
          
 
@@ -735,6 +736,7 @@ ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
      ### Repositorios
        * #### Traducciones
          *  Transloco : [Traduciones](https://github.com/ngneat/transloco)
+         *  Formularios Reactivos : [Formularios](https://gist.github.com/Klerith/5729dcfb170595f84d1b564a182ffbc2)
        * #### Readme instalacion mongodb, nodemon, robo3T  : [Intalaciones](https://github.com/CinTutuDev/BackendFotogramServe/blob/main/README.md)
        * #### Módulos Angular Material : [Módulos ](https://gist.github.com/Klerith/3d66c1fed17fba27fcd7e90088f8a242)
   
