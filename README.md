@@ -744,7 +744,8 @@ ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
           *  Patterns: [Expresion regex](https://gist.github.com/Klerith/bdf52e3500b0a6c66cf0b4dcd61549ee)
           *  Bàsico : [Basic](https://github.com/CinTutuDev/FormApp/commit/3211dfbcdd059a02956f66d2d3c3e59b689f4606)
           *  Dinámico : [Dynamic](https://github.com/CinTutuDev/FormApp/commit/296a3c3b5206291d08c6859e246a59895eb145b7)
-          *  Switches : [radio & checkbox](https://github.com/CinTutuDev/FormApp/commit/28140bce0d1cfcb74b7db576a0fcc502d49a48a0)                             
+          *  Switches : [radio & checkbox](https://github.com/CinTutuDev/FormApp/commit/28140bce0d1cfcb74b7db576a0fcc502d49a48a0)
+          *  Validaciones : [Validaciones asíncronas](https://github.com/CinTutuDev/FormApp/commit/950af33e9eb7f381e063015db4b6fb393161aa65 )                             
  
      ### Tips Readme
      
