@@ -626,7 +626,7 @@ private highlight(color: string) es una función privada que cambia el color de 
     ### ngOnDestroy
     > Se ejecuta después de que la vista del componente y sus vistas secundarias hayan sido inicializadas.
     ### LifeCycle
-    * Ciclo de Vida 👉 [Repo ](https://robomongo.org/y)
+    * Ciclo de Vida 👉 [Repo ](https://github.com/CinTutuDev/LifeCycle/tree/main)
 #### Ejemplos 
 ```Typescript
 import { Component, OnChanges, OnInit, DoCheck, AfterViewInit, OnDestroy } from '@angular/core';
