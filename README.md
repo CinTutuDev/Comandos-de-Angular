@@ -90,6 +90,8 @@
    - ${\color{#dbac00}ngDoCheck }$<a href="#ngdocheck">🌱</a> 
    - ${\color{#dbac00}ngAfterViewInit }$<a href="#ngafterviewinit">🌱</a>
    - ${\color{#dbac00}ngOnDestroy }$<a href="#ngondestroy">🌱</a>
+   - ${\color{#dbac00}Repo\space LifeCicle}$<a href="#lifecycle">🌱</a>
+   
 15. ##  ${\color{#00dbac}Crear\space JSON\space Server }$<a href="#crear-json-server">📊</a>
     
 16. ## ${\color{#00dbac}URL\space Importantes}$<a href="#url-importantes">🚀</a>
@@ -623,7 +625,8 @@ private highlight(color: string) es una función privada que cambia el color de 
     > Se ejecuta después de que la vista del componente y sus vistas secundarias hayan sido inicializadas.
     ### ngOnDestroy
     > Se ejecuta después de que la vista del componente y sus vistas secundarias hayan sido inicializadas.
-
+    ### LifeCycle
+    * Ciclo de Vida 👉 [Repo ](https://robomongo.org/y)
 #### Ejemplos 
 ```Typescript
 import { Component, OnChanges, OnInit, DoCheck, AfterViewInit, OnDestroy } from '@angular/core';
