@@ -36,6 +36,8 @@
 
    -  ${\color{#dbac00}Crear\space modulo\space con\space \space Lazy\space Loaded}$<a href="#crear-modulo-con-lazy-loaded">🧩</a>
 
+   -  ${\color{#dbac00}Crear\space modulo\space con\space \space routing\space en\space app}$<a href="#crear-modulo-con-routing-directorio">🧩</a>
+
 6.  ##  ${\color{#00dbac}Servicios}$<a href="#servicios">📡</a>
  - ${\color{#dbac00}Crear\space nuevo\space servicio}$<a href="#crear-nuevo-servicio">📡</a>
 
@@ -278,7 +280,10 @@ ng g c mi-carpeta/componente-nombre
     ```
      ng g m products --module app --route products
     ```
-
+    ### Crear modulo con routing directorio
+   ```
+   ng g m products --routing --module app
+    ```
  ###   ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
 
 6. ## Servicios
