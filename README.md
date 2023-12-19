@@ -745,7 +745,8 @@ ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
           *  Bàsico : [Basic](https://github.com/CinTutuDev/FormApp/commit/3211dfbcdd059a02956f66d2d3c3e59b689f4606)
           *  Dinámico : [Dynamic](https://github.com/CinTutuDev/FormApp/commit/296a3c3b5206291d08c6859e246a59895eb145b7)
           *  Switches : [radio & checkbox](https://github.com/CinTutuDev/FormApp/commit/28140bce0d1cfcb74b7db576a0fcc502d49a48a0)
-          *  Validaciones : [Validaciones asíncronas](https://github.com/CinTutuDev/FormApp/commit/950af33e9eb7f381e063015db4b6fb393161aa65 )                             
+          *  Validaciones : [Validaciones asíncronas](https://github.com/CinTutuDev/FormApp/commit/950af33e9eb7f381e063015db4b6fb393161aa65 )
+          *  HTTP & RXJS : [Peticiones HTTP y operadores RXJS](https://github.com/CinTutuDev/formAppSelectores/commit/155b2e5104abc6f696d343a284b0f282a0669e7c )                             
  
      ### Tips Readme
      
