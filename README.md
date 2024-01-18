@@ -34,6 +34,10 @@
 
    -  ${\color{#dbac00}Crear\space componente\space en\space el\space modulo}$<a href="#crear-componente-en-el-modulo">🧩</a>
 
+   -  ${\color{#dbac00}Crear\space modulo\space con\space \space Lazy\space Loaded}$<a href="#crear-modulo-con-lazy-loaded">🧩</a>
+
+   -  ${\color{#dbac00}Crear\space modulo\space con\space \space routing\space en\space app}$<a href="#crear-modulo-con-routing-directorio">🧩</a>
+
 6.  ##  ${\color{#00dbac}Servicios}$<a href="#servicios">📡</a>
  - ${\color{#dbac00}Crear\space nuevo\space servicio}$<a href="#crear-nuevo-servicio">📡</a>
 
@@ -86,6 +90,8 @@
    - ${\color{#dbac00}ngDoCheck }$<a href="#ngdocheck">🌱</a> 
    - ${\color{#dbac00}ngAfterViewInit }$<a href="#ngafterviewinit">🌱</a>
    - ${\color{#dbac00}ngOnDestroy }$<a href="#ngondestroy">🌱</a>
+   - ${\color{#dbac00}Repo\space LifeCicle}$<a href="#lifecycle">🌱</a>
+   
 15. ##  ${\color{#00dbac}Crear\space JSON\space Server }$<a href="#crear-json-server">📊</a>
     
 16. ## ${\color{#00dbac}URL\space Importantes}$<a href="#url-importantes">🚀</a>
@@ -101,6 +107,8 @@
    - ${\color{#dbac00}FernandoH\space PDF}$<a href="#pdf-atajos">🚀</a>
    - ${\color{#dbac00}Repositorios }$<a href="#repositorios">🐙</a>
       * ${\color{#009ddb}Traducciones}$<a href="#traducciones">🐙</a>
+      * ${\color{#009ddb}Formularios}$<a href="#formularios-reactivos">🐙</a>
+   - ${\color{#dbac00}Readme}$<a href="#tips-readme">🚀</a>
          
 
 17. ## Iniciar el Proyecto
@@ -275,7 +283,14 @@ ng g c mi-carpeta/componente-nombre
     # 2º se crear el componenete con el nombre modulo
     ng g c Nombremodulo/nombre-Componente --flat --skip-tests
     ```
-
+    ### Crear modulo con Lazy Loaded
+    ```
+     ng g m products --module app --route products
+    ```
+    ### Crear modulo con routing directorio
+   ```
+   ng g m products --routing --module app
+    ```
  ###   ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
 
 6. ## Servicios
@@ -615,7 +630,8 @@ private highlight(color: string) es una función privada que cambia el color de 
     > Se ejecuta después de que la vista del componente y sus vistas secundarias hayan sido inicializadas.
     ### ngOnDestroy
     > Se ejecuta después de que la vista del componente y sus vistas secundarias hayan sido inicializadas.
-
+    ### LifeCycle
+    * Ciclo de Vida 👉 [Repo ](https://github.com/CinTutuDev/LifeCycle/tree/main)
 #### Ejemplos 
 ```Typescript
 import { Component, OnChanges, OnInit, DoCheck, AfterViewInit, OnDestroy } from '@angular/core';
@@ -682,7 +698,8 @@ ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
 15.  ## URL importantes
      ### Diseño
        * Bootstrap 👉 [Biblioteca Bootstrap](https://getbootstrap.com/)
-       * PrimeNG 👉 [Biblioteca de componentes](¡https://primeng.org/installation)
+       * PrimeNG 👉 [Biblioteca de componentes](https://primeng.org/installation)
+         * PrimeFLEX 👉 [Biblioteca de utilidades CSS](https://primeflex.org/installation)
        * Flexbox  👉  [Conceptos básicos](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox)
        * Migrar de css a scss 👉 [npmjs](https://www.npmjs.com/package/schematics-scss-migrate)
        * Generador códigos QR 👉 [QR Planet](https://qrplanet.com/es)
@@ -699,6 +716,8 @@ ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
          * Firebase, Angular e Ionic 👉 [Configuración, registro y subida](https://www.youtube.com/watch?v=_K2Xk_nc9VA) 
        * Netlify 👉 [Configuración, registro y subida ](https://www.youtube.com/watch?v=7W6-jSOFMgM)
        * PrimeNG 👉 [Instalación GH](https://github.com/CinTutuDev/pipesApp/edit/main/README.md)
+         * PrimeNG Modo oscuro 👉 [Modo dark](https://www.youtube.com/watch?v=6wYiYsroqX4)
+       * Crear Repositorio y Subir Proyecto 👉GITHUB👈 👉 [Repositorio y Subir Proyecto](https://www.youtube.com/watch?v=eQMcIGVc8N0)
      ### APIs
       * APIs gratis 👉 [Listado de APIs](https://profile.es/blog/apis-front-end/)
        * API Restcountries 👉 [Restcountries](https://restcountries.com/)
@@ -724,13 +743,40 @@ ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
        * http-server 👉 [HTTP estático simple](https://www.npmjs.com/package/http-server)
        * del-cli 👉 [del-cli](https://www.npmjs.com/package/del-cli)
        * copyfiles 👉 [copiar archivos](https://www.npmjs.com/package/copyfiles)
+       * json-server 👉 [Instalación](https://www.npmjs.com/package/json-server)
      ### PDF Atajos 
        PDF atajos: [FernendoH][angular-cheat-sheet.pdf](https://github.com/CinTutuDev/pipesApp/files/12585594/angular-cheat-sheet.pdf)
      ### Repositorios
        * #### Traducciones
          *  Transloco : [Traduciones](https://github.com/ngneat/transloco)
-        *  Readme instalacion mongodb, nodemon, robo3T  : [Intalaciones](https://github.com/CinTutuDev/BackendFotogramServe/blob/main/README.md)
+       * #### Readme instalacion mongodb, nodemon, robo3T  : [Intalaciones](https://github.com/CinTutuDev/BackendFotogramServe/blob/main/README.md)
+       * #### Módulos Angular Material : [Módulos ](https://gist.github.com/Klerith/3d66c1fed17fba27fcd7e90088f8a242)
+       * #### Formularios Reactivos
+          *  Documentación:  [Doc oficial](https://angular.io/guide/reactive-forms)
+          *  Estructura: [Estructura Básica](https://gist.github.com/Klerith/5729dcfb170595f84d1b564a182ffbc2)
+          *  Patterns: [Expresion regex](https://gist.github.com/Klerith/bdf52e3500b0a6c66cf0b4dcd61549ee)
+          *  Bàsico : [Basic](https://github.com/CinTutuDev/FormApp/commit/3211dfbcdd059a02956f66d2d3c3e59b689f4606)
+          *  Dinámico : [Dynamic](https://github.com/CinTutuDev/FormApp/commit/296a3c3b5206291d08c6859e246a59895eb145b7)
+          *  Switches : [radio & checkbox](https://github.com/CinTutuDev/FormApp/commit/28140bce0d1cfcb74b7db576a0fcc502d49a48a0)
+          *  Validaciones : [Validaciones asíncronas](https://github.com/CinTutuDev/FormApp/commit/950af33e9eb7f381e063015db4b6fb393161aa65 )
+          *  HTTP & RXJS : [Peticiones HTTP y operadores RXJS](https://github.com/CinTutuDev/formAppSelectores/commit/155b2e5104abc6f696d343a284b0f282a0669e7c )                             
+ 
+     ### Tips Readme
+     
+  > [!NOTE]
+  > Esto es info adicional
+       
+  > [!TIP]
+  > Una sugerencia o consejo
 
+  > [!IMPORTANT]
+  > Información importante
+
+ > [!WARNING]
+ > Atencón del usuario
+
+ > [!CAUTION]
+ > Consecuencias negativas si nos haces caso
 
 
 ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
