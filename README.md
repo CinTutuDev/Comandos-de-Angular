@@ -20,6 +20,7 @@
       * ${\color{#db0700}Sin\space tests}$<a href="#sin-tests">🔧</a>
       *  ${\color{#db0700}Sin\space tests\space y \space hoja\space de\space estilos}$<a href="#sin-tests-y-estilos">🔧</a>
       * ${\color{#db0700}Sin\space template}$<a  href="#sin-template">🔧</a>
+      * ${\color{#db0700}Con\space standalone}$<a  href="#con-standalone">🔧</a>
       * ${\color{#db0700}En\space otro \space directorio}$<a href="#en-otro-directorio">🔧</a>
       * ${\color{#db0700}Generar\space componente \space dentro\space del\space app-module}$<a href="#generar-componente-dentro-del-app-module">🔧</a>
       * ${\color{#db0700}Generar\space componente \space dentro\space de\space otro\space componente}$<a href="#generar-componente-dentro-de-otro-componente">🔧</a>
@@ -241,6 +242,10 @@ ng g c nombre-componente --inline-style --skip-tests
 ```
 ng g c mi-carpeta/componente-nombre --inline-template
 ```
+   ### Con Standalone
+```
+ng g c alone/pages/alonePage --standalone --skip-tests
+```
   ### En otro directorio
 ```
 ng g c mi-carpeta/componente-nombre
@@ -259,7 +264,7 @@ ng g c mi-carpeta/componente-nombre
 ```
 
  ###   ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
-5. ## Modulos 
+1. ## Modulos 
 
    ###  Crear nuevo modulo 
     ```
@@ -293,19 +298,19 @@ ng g c mi-carpeta/componente-nombre
     ```
  ###   ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
 
-6. ## Servicios
+1. ## Servicios
 
    ### Crear nuevo servicio
    ```
     ng g s nuevo-servicio --skip-tests
    ```
-7. ## Routing
+2. ## Routing
    ### Configurar enrutamiento
    ```
    # para crear routing dentro de un modulo
     ng g m nombreModuloRouting --flat
    ```
-8. ## Guard
+3. ## Guard
    ### Crear guard
    ```
    ng g guard nombreGuard2 --skip-tests
