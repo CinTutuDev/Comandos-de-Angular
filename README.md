@@ -191,10 +191,15 @@ o
  ```
 ng s -o
 ```
-  - ${\color{blue}Definir \space en  \space package.json\space }$
+  - ${\color{blue}Scripts \space package.json\space }$
 ```
 "scripts": {
-  "start": "ng serve"
+    "ng": "ng",
+    "envs": "node ./scripts/set-envs.js",
+    "start": "npm run envs && ng serve",
+    "build": "npm run envs && ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
 }
 # se inicia el servidor:
 npm start
