@@ -760,6 +760,7 @@ ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
           *  Documentación:  [Doc oficial](https://angular.io/guide/reactive-forms)
           *  Estructura: [Estructura Básica](https://gist.github.com/Klerith/5729dcfb170595f84d1b564a182ffbc2)
           *  Patterns: [Expresion regex](https://gist.github.com/Klerith/bdf52e3500b0a6c66cf0b4dcd61549ee)
+          *  Primeros pasos: [ReactiveFormsModule](https://github.com/CinTutuDev/directiveSignals/commit/30ac250de60f583e7125c15a814ac8c59971d854)
           *  Bàsico : [Basic](https://github.com/CinTutuDev/FormApp/commit/3211dfbcdd059a02956f66d2d3c3e59b689f4606)
           *  Dinámico : [Dynamic](https://github.com/CinTutuDev/FormApp/commit/296a3c3b5206291d08c6859e246a59895eb145b7)
           *  Switches : [radio & checkbox](https://github.com/CinTutuDev/FormApp/commit/28140bce0d1cfcb74b7db576a0fcc502d49a48a0)
