@@ -44,7 +44,7 @@
 
 7.  ##  ${\color{#00dbac}Routing}$<a href="#routing">🔗</a>
  - ${\color{#dbac00}Configurar\space Enrutamiento\space}$<a href="#configurar-enrutamiento">🔗</a>
- - ${\color{#dbac00}Crear\space rutas\space loadChildren \space & \space children }$<a href="#Crear-rutas-loadChildren-&-children">🔗</a>
+ - ${\color{#dbac00}Crear\space rutas\space loadChildren \space children }$<a href="#Crear-rutas-loadChildren-children">🔗</a>
 
 8.  ##  ${\color{#00dbac}Guard}$<a href="#guard">🛡️</a>
  - ${\color{#dbac00}Crear\space guard\space}$<a href="#crear-guard">🛡️</a>
