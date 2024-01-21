@@ -311,7 +311,7 @@ ng g c mi-carpeta/componente-nombre
    # para crear routing dentro de un modulo
     ng g m nombreModuloRouting --flat
    ```
-   ### Crear rutas loadChildren & children
+   ### Crear rutas loadChildren children
    * En app.routing.module.ts
      
    ```TypeScript
@@ -331,6 +331,23 @@ ng g c mi-carpeta/componente-nombre
     },
     ];
    ```
+   * En otroHijo.routing.module.ts
+     
+  ```TypeScript
+       const routes: Routes = [
+     {
+    path: '',
+    component: SignalsLayoutComponent,
+    children: [
+      { path: 'counter', component: CounterComponent },
+      { path: 'properties', component: PropertiesPageComponent },
+      { path: 'user-info', component: UserInfoPageComponent },
+      { path: 'user-info', component: UserInfoPageComponent },
+      ],
+     },
+   ];
+  ```
+
  3. ## Guard
    ### Crear guard
    ```
