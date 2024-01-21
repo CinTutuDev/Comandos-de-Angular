@@ -43,7 +43,8 @@
  - ${\color{#dbac00}Crear\space nuevo\space servicio}$<a href="#crear-nuevo-servicio">📡</a>
 
 7.  ##  ${\color{#00dbac}Routing}$<a href="#routing">🔗</a>
- - ${\color{#dbac00}Configurar\space Enrutamiento\space}$<a href="#configurar-enrutamiento">🔗</a>   
+ - ${\color{#dbac00}Configurar\space Enrutamiento\space}$<a href="#configurar-enrutamiento">🔗</a>
+ - ${\color{#dbac00}Crear\space rutas\space loadChildren \space & \space children }$<a href="#Crear-rutas-loadChildren-&-children">🔗</a>
 
 8.  ##  ${\color{#00dbac}Guard}$<a href="#guard">🛡️</a>
  - ${\color{#dbac00}Crear\space guard\space}$<a href="#crear-guard">🛡️</a>
@@ -310,7 +311,27 @@ ng g c mi-carpeta/componente-nombre
    # para crear routing dentro de un modulo
     ng g m nombreModuloRouting --flat
    ```
-3. ## Guard
+   ### Crear rutas loadChildren & children
+   * En app.routing.module.ts
+     
+   ```TypeScript
+        const routes: Routes = [
+     {
+     path: 'products',
+     loadChildren: () =>
+      import('./products/products.module').then((m) => m.ProductsModule),
+     },
+     {
+     path: 'signals',
+     loadChildren: () => import('./signals/signals.module').then(m => m.SignalsModule)
+     },
+    {
+    path: '**',
+    redirectTo: 'products',
+    },
+    ];
+   ```
+ 3. ## Guard
    ### Crear guard
    ```
    ng g guard nombreGuard2 --skip-tests
