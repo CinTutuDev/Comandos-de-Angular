@@ -342,7 +342,7 @@ ng g c mi-carpeta/componente-nombre
       { path: 'counter', component: CounterComponent },
       { path: 'properties', component: PropertiesPageComponent },
       { path: 'user-info', component: UserInfoPageComponent },
-      { path: 'user-info', component: UserInfoPageComponent },
+      { path: '**', redirectTo: 'counter' },
       ],
      },
    ];
