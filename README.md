@@ -347,6 +347,33 @@ ng g c mi-carpeta/componente-nombre
      },
    ];
   ```
+* Enrutar con menu
+   
+  ```TypeScript
+        interface MenuItems {
+      title: string;
+      router: string;
+    }
+  
+     public mennuItems: MenuItems[] = [
+      { title: ' Contador', router: 'Counter' },
+      { title: ' Usuarios', router: 'user-info' },
+      { title: ' Actualizaciones', router: 'properties' },
+    ];
+ 
+    En sy html...
+
+   <ul class="list-group">
+     <li
+       *ngFor="let item of mennuItems"
+       class="list-group-item"
+       routerLinkActive="active"
+       [routerLink]="[item.router]"
+     >
+       {{ item.title }}
+     </li>
+   </ul>
+  ```
 
  3. ## Guard
    ### Crear guard
