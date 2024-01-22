@@ -41,6 +41,7 @@
 
 6.  ##  ${\color{#00dbac}Servicios}$<a href="#servicios">📡</a>
  - ${\color{#dbac00}Crear\space nuevo\space servicio}$<a href="#crear-nuevo-servicio">📡</a>
+ - ${\color{#dbac00}Ejemplo\space con\space inject\space y \space signal }$<a href="#ejemplo-con-inject-y-signal">📡</a>
 
 7.  ##  ${\color{#00dbac}Routing}$<a href="#routing">🔗</a>
  - ${\color{#dbac00}Configurar\space Enrutamiento\space}$<a href="#configurar-enrutamiento">🔗</a>
@@ -305,6 +306,7 @@ ng g c mi-carpeta/componente-nombre
    ```
     ng g s nuevo-servicio --skip-tests
    ```
+   ### Ejemplo con inject y signal
 2. ## Routing
    ### Configurar enrutamiento
    ```
