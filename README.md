@@ -307,6 +307,10 @@ ng g c mi-carpeta/componente-nombre
     ng g s nuevo-servicio --skip-tests
    ```
    ### Ejemplo con inject y signal
+  
+  > [!IMPORTANT]
+  >  URL para enviroments e interfaces 👉 [Ejemplo](https://github.com/CinTutuDev/authApp/commit/ead1eb2e05b6679452e48020ba434ff1505e23f3)
+
    1º Creamos el servicio:
 ```TypeScript
        import { HttpClient } from '@angular/common/http';
