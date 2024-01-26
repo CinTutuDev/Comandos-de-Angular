@@ -526,6 +526,10 @@ ng g c mi-carpeta/componente-nombre
    ```
     ng g guard nombreGuard --implements=CanActivate --skip-tests
    ```
+  #### Crear guard con CanActivate y guard funcional 
+   ```
+     ng g guard isAuthenticated --functional --implements=CanActivate --skip-tests
+   ```
 
  ###   ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
 9. ## flat
