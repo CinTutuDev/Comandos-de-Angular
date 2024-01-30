@@ -503,7 +503,7 @@ ng g c mi-carpeta/componente-nombre
       { title: ' Actualizaciones', router: 'properties' },
     ];
  
-    En sy html...
+    En su html...
 
    <ul class="list-group">
      <li
@@ -516,6 +516,95 @@ ng g c mi-carpeta/componente-nombre
      </li>
    </ul>
   ```
+ ### Configurar para Angular17
+* En app.routes.ts
+     
+   ```TypeScript
+             export const routes: Routes = [
+           {
+             path: 'dashboard',
+             loadComponent: () => import('./dashboard/dashboard.component'),
+             children: [
+               {
+                 path: 'change-detection',
+                 title: 'Change Detection',
+                 loadComponent: () =>
+                   import(
+                     './dashboard/pages/change-detection/change-detection.component'
+                   ),
+               },
+               {
+                 path: 'control-flow',
+                 title: 'Control Flow',
+                 loadComponent: () =>
+                   import('./dashboard/pages/control-flow/control-flow.component'),
+               },
+               {
+                 path: 'defer-options',
+                 title: 'Defer Options',
+                 loadComponent: () =>
+                   import('./dashboard/pages/defer-options/defer-options.component'),
+               },
+               {
+                 path: 'defer-views',
+                 title: 'Defer Views',
+                 loadComponent: () =>
+                   import('./dashboard/pages/defer-views/defer-views.component'),
+               },
+               {
+                 path: 'user/:id',
+                 title: 'User View',
+                 loadComponent: () => import('./dashboard/pages/user/user.component'),
+               },
+               {
+                 path: 'users-list',
+                 title: 'Users List',
+                 loadComponent: () => import('./dashboard/pages/users/users.component'),
+               },
+               {
+                 path: 'view-transition',
+                 title: 'View Transition',
+                 loadComponent: () =>
+                   import('./dashboard/pages/view-transition/view-transition.component'),
+               },
+               {
+                 path: '',
+                 redirectTo: 'control-flow',
+                 pathMatch: 'full',
+               },
+             ],
+           },
+         
+           {
+             path: '**',
+             redirectTo: '/dashboard',
+             pathMatch: 'full',
+           },
+         ];
+   ```
+   * En cada componente ts se añade default desde el padre hasta los hijos
+    ```TypeScript
+       //componente padre:
+    
+         import { Component } from '@angular/core';
+         import { RouterModule } from '@angular/router';
+         
+         @Component({
+           standalone: true,
+           imports: [RouterModule],
+           templateUrl: './dashboard.component.html',
+           styles: ``
+         })
+         export default class DashboardComponent {
+         
+         }
+     //componente hijo
+     export default class ChangeDetectionComponent {
+        
+        }
+
+   ```
+
 
  3. ## Guard
    ### Crear guard
