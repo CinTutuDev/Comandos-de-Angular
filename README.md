@@ -923,7 +923,8 @@ ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
           * Angular Material schematics 👉 [Guia](https://material.angular.io/guide/schematics/)
       * icons w3schools👉 [w3schools](https://www.w3schools.com/icons/fontawesome_icons_intro.asp) 
       * GIFS 👉 [giphy](https://developers.giphy.com/) 
-      * Animate.css 👉 [Doc e instalación](https://animate.style/) 
+      * Animate.css 👉 [Doc e instalación](https://animate.style/)
+      * Tailwindcss 👉 [Doc e intall](https://tailwindcss.com/docs/guides/angular) 
      ### Tutoriales
        * NETLIFY 👉 [Publicar WEB NETLIFY](https://www.youtube.com/watch?v=7W6-jSOFMgM)
        * TMDB 👉 [Hacer peticiones](https://www.youtube.com/watch?v=5iiF_hxhLB4)
