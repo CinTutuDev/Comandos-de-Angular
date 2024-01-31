@@ -604,8 +604,56 @@ ng g c mi-carpeta/componente-nombre
      export default class ChangeDetectionComponent {
         
         }
-
    ```
+ * En el ts donde se muestre el menu:
+    ```TypeScript
+ 
+   import { Component } from '@angular/core';
+   import { routes } from '../../app.routes';
+   import { CommonModule } from '@angular/common';
+   import { RouterModule } from '@angular/router';
+   
+   @Component({
+     selector: 'sidemenu',
+     standalone: true,
+     imports: [CommonModule, RouterModule],
+     templateUrl: './sidemenu.component.html',
+     styleUrl: './sidemenu.component.scss',
+   })
+   export class SidemenuComponent {
+     public menuItems = routes
+       .map((route) => route.children ?? [])
+       .flat()
+       .filter((route) => route && route.path)
+       .filter((route) => !route.path?.includes(':'));
+        }}
+   ```
+    * Y en el html
+    ```html
+       <div id="nav" class="w-full px-6">
+         <!---------------- Dashboard MenuItem---------------------->
+         @for (item of menuItems; track $index) {
+     
+           <a
+           [routerLink]="item.path"
+           routerLinkActive="bg-slate-400"
+     
+           href="#"
+           class="w-full px-2 inline-flex space-x-2 items-center text-base font-regular px-4 py-4 boder-b py-3  text-white flex"
+         >
+           <div class="flex flex-col">
+             <span class="text-lg ftext-slate-300 font-bold leading-5"
+               >{{item.title}}</span
+             >
+             <span class="text-sm text-white/50 hidden md:block">{{item.path}}</span>
+             </div>
+           </a>
+      }
+      </div>
+  
+   ```
+
+    
  ###   ${\color{orange}Back\space}$<a href="#indice"> 🔙</a> 
 
  3. ## Guard
