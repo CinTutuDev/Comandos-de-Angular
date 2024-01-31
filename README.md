@@ -519,6 +519,8 @@ ng g c mi-carpeta/componente-nombre
    </ul>
   ```
  ### Configurar para Angular17
+ > [!IMPORTANT]
+ >  URL Para configurar alias de importaciones en Typescrips 👉 [Ejemplo](https://github.com/CinTutuDev/angular17Dashboard/commit/de170273db648dae5c7f08e05c1e66e34f85bd71)
 * En app.routes.ts
      
    ```TypeScript
