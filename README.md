@@ -45,7 +45,8 @@
 
 7.  ##  ${\color{#00dbac}Routing}$<a href="#routing">🔗</a>
  - ${\color{#dbac00}Configurar\space Enrutamiento\space}$<a href="#configurar-enrutamiento">🔗</a>
- - ${\color{#dbac00}Crear\space rutas\space loadChildren \space children }$<a href="#Crear-rutas-loadChildren-children">🔗</a>
+ - ${\color{#dbac00}Crear\space rutas\space loadChildren \space children }$<a href="#crear-rutas-loadchildren-children">🔗</a>
+ - ${\color{#dbac00}Configurar\space para\space Angular17}$<a href="#configurar-para-angular17">🔗</a>
 
 8.  ##  ${\color{#00dbac}Guard}$<a href="#guard">🛡️</a>
  - ${\color{#dbac00}Crear\space guard\space}$<a href="#crear-guard">🛡️</a>
@@ -446,6 +447,7 @@ ng g c mi-carpeta/componente-nombre
       </div>
     </div>
    ```
+ ###   ${\color{orange}Back\space}$<a href="#indice"> 🔙</a> 
    
 3. ## Routing
    ### Configurar enrutamiento
@@ -604,7 +606,7 @@ ng g c mi-carpeta/componente-nombre
         }
 
    ```
-
+ ###   ${\color{orange}Back\space}$<a href="#indice"> 🔙</a> 
 
  3. ## Guard
    ### Crear guard
