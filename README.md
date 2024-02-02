@@ -12,6 +12,8 @@
 
    - ${\color{#dbac00}Cambiar\space directorio\space del\space proyecto\space}$<a href="#instalar-angular-material"> 🖲</a>
 
+   - ${\color{#dbac00}Desistalar\space e\space instalar\space AngularCli\space}$<a href="#desistalar-e-instalar-angularcli"> 🖲</a>
+
 2. ##  ${\color{#00dbac}Iniciar\space en\space servidor}$<a href="#iniciar-en-servidor">🌐</a>
 
 3. ##  ${\color{#00dbac}Cambiar\space puertos}$<a href="#cambiar-puertos">⚙️</a>
@@ -62,33 +64,34 @@
   
 12. ##  ${\color{#00dbac}Confirm-box\space}$<a href="#confirm-box">✔️</a>
    -  ${\color{#dbac00}Generar\space Confirm-box}$<a href="#generar-confirm-box">✔️</a>
-13. ##  ${\color{#00dbac}Directivas\space}$<a href="#pipes">📐</a>
-   -  ${\color{#dbac00}Directivas\space estructurales\space}$<a href="#directivas-estructurales">📐</a>
-         -  ${\color{#db0700}Ejemplos}$<a href="#ejemplos-estructurales">📐</a>
-   -  ${\color{#dbac00}Directivas\space de\space atributo}$<a href="#directivas-de-atributo">📐</a>
-         -  ${\color{#db0700}Ejemplos}$<a href="#ejemplos-atributo">📐</a>
-   -  ${\color{#dbac00}Directivas\space de\space eventos}$<a href="#directivas-de-eventos">📐</a>
    
-      * ${\color{#db0700}Ejemplos\space eventos}$<a href="#ejemplos-eventos">📐</a>
-         -  ${\color{#009ddb}(click)}$<a href="#click">📐</a>
-         -  ${\color{#009ddb}(input)}$<a href="#input">📐</a>
-         -  ${\color{#009ddb}(submit)}$<a href="#submit">📐</a>
-         - ${\color{#009ddb}(mouseout)}$<a href="#mouseout">📐</a> 
-         - ${\color{#009ddb}(keyup)}$<a href="#keyup">📐</a> 
-         -  ${\color{#009ddb}(keydown)}$<a href="#keydown">📐</a> 
-         -  ${\color{#009ddb}(focus)}$<a href="#focus">📐</a>
-         -  ${\color{#009ddb}(blur)}$<a href="#blur">📐</a>    
-  
-  - ${\color{#dbac00}Directivas\space personalizadas}$<a href="#directivas-personalizadas">📐</a>
-  -  ${\color{#dbac00}URL\space Event\space Binding }$<a href="#event-binding">📐</a>
+13. ##  ${\color{#00dbac}Directivas\space}$<a href="#pipes">📐</a>
+      -  ${\color{#dbac00}Directivas\space estructurales\space}$<a href="#directivas-estructurales">📐</a>
+            -  ${\color{#db0700}Ejemplos}$<a href="#ejemplos-estructurales">📐</a>
+      -  ${\color{#dbac00}Directivas\space de\space atributo}$<a href="#directivas-de-atributo">📐</a>
+            -  ${\color{#db0700}Ejemplos}$<a href="#ejemplos-atributo">📐</a>
+      -  ${\color{#dbac00}Directivas\space de\space eventos}$<a href="#directivas-de-eventos">📐</a>
+      
+         * ${\color{#db0700}Ejemplos\space eventos}$<a href="#ejemplos-eventos">📐</a>
+            -  ${\color{#009ddb}(click)}$<a href="#click">📐</a>
+            -  ${\color{#009ddb}(input)}$<a href="#input">📐</a>
+            -  ${\color{#009ddb}(submit)}$<a href="#submit">📐</a>
+            - ${\color{#009ddb}(mouseout)}$<a href="#mouseout">📐</a> 
+            - ${\color{#009ddb}(keyup)}$<a href="#keyup">📐</a> 
+            -  ${\color{#009ddb}(keydown)}$<a href="#keydown">📐</a> 
+            -  ${\color{#009ddb}(focus)}$<a href="#focus">📐</a>
+            -  ${\color{#009ddb}(blur)}$<a href="#blur">📐</a>    
+     
+     - ${\color{#dbac00}Directivas\space personalizadas}$<a href="#directivas-personalizadas">📐</a>
+     -  ${\color{#dbac00}URL\space Event\space Binding }$<a href="#event-binding">📐</a>
 
-12. ##  ${\color{#00dbac}Compilar\space}$<a href="#compilar">🔄</a>
+14. ##  ${\color{#00dbac}Compilar\space}$<a href="#compilar">🔄</a>
    - ${\color{#dbac00}Modo\space desarrollo\space y\space generar\space dist/ }$<a href="#dist">🔄</a>
    -  ${\color{#dbac00}Modo\space producción}$<a href="#producción">🔄</a>
     
-13. ##  ${\color{#00dbac}Interceptor}$<a href="#interceptor">🚥</a>
+15. ##  ${\color{#00dbac}Interceptor}$<a href="#interceptor">🚥</a>
 
-14. ## ${\color{#00dbac}Ciclos\space de\space vida}$<a href="#ciclos-de-vida">🌱</a>
+16. ## ${\color{#00dbac}Ciclos\space de\space vida}$<a href="#ciclos-de-vida">🌱</a>
    - ${\color{#dbac00}ngOnChanges }$<a href="#ngonchanges">🌱</a>
    - ${\color{#dbac00}ngOnInit }$<a href="#ngoninit">🌱</a>
    - ${\color{#dbac00}ngDoCheck }$<a href="#ngdocheck">🌱</a> 
@@ -96,9 +99,9 @@
    - ${\color{#dbac00}ngOnDestroy }$<a href="#ngondestroy">🌱</a>
    - ${\color{#dbac00}Repo\space LifeCicle}$<a href="#lifecycle">🌱</a>
    
-15. ##  ${\color{#00dbac}Crear\space JSON\space Server }$<a href="#crear-json-server">📊</a>
+17. ##  ${\color{#00dbac}Crear\space JSON\space Server }$<a href="#crear-json-server">📊</a>
     
-16. ## ${\color{#00dbac}URL\space Importantes}$<a href="#url-importantes">🚀</a>
+18. ## ${\color{#00dbac}URL\space Importantes}$<a href="#url-importantes">🚀</a>
    - ${\color{#dbac00}Diseño }$<a href="#diseño">🚀</a>
    - ${\color{#dbac00}Tutoriales }$<a href="#tutoriales">🚀</a>
    - ${\color{#dbac00}APIs }$<a href="#apis">🚀</a> 
@@ -115,7 +118,7 @@
    - ${\color{#dbac00}Readme}$<a href="#tips-readme">🚀</a>
          
 
-17. ## Iniciar el Proyecto
+1. ## Iniciar el Proyecto
  
   - ${\color{blue}Modo \space basico  }$
 ```
@@ -192,7 +195,14 @@ ng add @angular/material
 # Ejemplo
 ng new myApp --directory="C:\New-Folder\"
 ```
-  ###   ${\color{orange}Back\space}$<a href="#indice"> 🔙</a> 
+### Desistalar e instalar AngularCLI
+   ```
+   npm uninstall -g @angular/cli
+   npm cache clean --force
+   npm install -g @angular/cli@16
+   ```
+
+###   ${\color{orange}Back\space}$<a href="#indice"> 🔙</a> 
 
 2. ## Iniciar en servidor
 
@@ -267,7 +277,7 @@ ng g c mi-carpeta/componente-nombre
 ```
 
  ###   ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
-1. ## Modulos 
+5. ## Modulos 
 
    ###  Crear nuevo modulo 
     ```
@@ -301,7 +311,7 @@ ng g c mi-carpeta/componente-nombre
     ```
  ###   ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
 
-1. ## Servicios
+6. ## Servicios
 
    ### Crear nuevo servicio
    ```
@@ -449,7 +459,7 @@ ng g c mi-carpeta/componente-nombre
    ```
  ###   ${\color{orange}Back\space}$<a href="#indice"> 🔙</a> 
    
-3. ## Routing
+7. ## Routing
    ### Configurar enrutamiento
    ```
    # para crear routing dentro de un modulo
@@ -658,7 +668,7 @@ ng g c mi-carpeta/componente-nombre
     
  ###   ${\color{orange}Back\space}$<a href="#indice"> 🔙</a> 
 
- 3. ## Guard
+ 8. ## Guard
    ### Crear guard
    ```
    ng g guard nombreGuard2 --skip-tests
@@ -683,7 +693,7 @@ ng g c mi-carpeta/componente-nombre --flat
   ```
     ng generate pipe nombre-pipe --skip-import
    ```
-12.  ## Popup
+11.  ## Popup
      ### Generar popup
      ```
      npm i ng-angular-popup --force
@@ -711,7 +721,7 @@ ng g c mi-carpeta/componente-nombre --flat
       ],
       ```
 ###  ${\color{orange}Back\space}$<a href="#indice"> 🔙</a> 
-1.   ## Directivas
+13.   ## Directivas
     ### Directivas estructurales
    - \*ngIf
      - \ngIfElse 
@@ -905,7 +915,7 @@ private highlight(color: string) es una función privada que cambia el color de 
   ###  Event Binding  
   👀  [URL Event binding](https://angular.io/guide/event-binding) 
 
-12.  ## Compilar
+14.  ## Compilar
      ### dist/
      ```
      ng build 
@@ -915,7 +925,7 @@ private highlight(color: string) es una función privada que cambia el color de 
      ng build --configuration=production
      ```
 ###   ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
-13. ## Interceptor
+15. ## Interceptor
    > Manejan y modifican solicitudes HTTP antes de que se envíen al servidor y las respuestas antes de que lleguen a la aplicación. Aquí hay un ejemplo sencillo de cómo podrías usar un interceptor.
 
    - Ejemplo 
@@ -976,7 +986,7 @@ private highlight(color: string) es una función privada que cambia el color de 
 
  ###   ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
 
-14. ## Ciclos de vida
+16. ## Ciclos de vida
     ### ngOnChanges
     > Se ejecuta cuando hay cambios en las propiedades de entrada del componente.
     ### ngOnInit
@@ -1039,7 +1049,7 @@ export class CiclosDeVidaComponent implements OnChanges, OnInit, DoCheck, AfterV
 
 ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
 
-14. ## Crear JSON Server
+17. ## Crear JSON Server
     * Installar de manera global
      ```
       npm i -g json-server
@@ -1052,7 +1062,7 @@ ${\color{orange}Back\space}$<a href="#indice"> 🔙</a>
      ```
       json-server --watch db.json
      ```  
-15.  ## URL importantes
+18.  ## URL importantes
      ### Diseño
        * Bootstrap 👉 [Biblioteca Bootstrap](https://getbootstrap.com/)
        * PrimeNG 👉 [Biblioteca de componentes](https://primeng.org/installation)
