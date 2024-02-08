@@ -2,7 +2,7 @@
  <img src="assets/angular.png" width="6%">
 </p>
 <p align="center"> 
-<img src="https://readme-typing-svg.demolab.com?font=Pixel Emulator&size=40&color=DD0031&center=true&vCenter=true&width=940&lines=Comandos+De+Angular" align="middle" alt=""  width="80%"/>
+<img src="https://readme-typing-svg.demolab.com?font=Pixel Emulator&size=40&color=DD0031&center=true&vCenter=true&width=940&lines=Recursos+De+Angular" align="middle" alt=""  width="80%"/>
 </p>
 
 # Indice 
